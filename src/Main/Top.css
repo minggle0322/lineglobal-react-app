@@ -24,17 +24,13 @@
     height: auto;
 }
 
-.white {
-    color: white !important;
-}
-
 .menu {
     display: flex;
 }
 
-.menu>a {
+.main-top .menu>a {
     font-size: 20px;
     margin-left: 20px;
     text-decoration: none;
-    color: black;
+    color: white;
 }

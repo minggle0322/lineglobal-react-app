@@ -30,20 +30,22 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
 
 }
 
 
 .imgcont {
-    width: 50%;
-    display: inline;
-    animation: fadein 2.5s;
+    height: 100%;
+    width: 100%;
+    position: inline;
 }
 
 .logo {
 
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
 }
 
 
@@ -52,12 +54,9 @@ body {
     width: 5%;
     position: absolute;
     bottom: 10%;
-    animation-name: fadein-50;
-    animation-duration: 1s;
 }
 
 .down {
-
     width: 100%;
     height: auto;
 }
@@ -331,9 +330,7 @@ body {
         width: 1000px;
     }
 
-    .imgcont {
-        width: 60%;
-    }
+    .imgcont {}
 
     .listcont {
         width: 1000px;

@@ -4,7 +4,9 @@ import PanelSnap from 'panelsnap';
 import List from './listloop'
 import Gallery from './Gallery';
 import './index.css'
-import logo from '../assets/logo.png'
+import mainvidmin from '../assets/mainvidmin.mp4'
+
+import mainvid from '../assets/mainvid.mp4'
 import down from '../assets/down.svg'
 
 import Top from './Top';
@@ -68,7 +70,9 @@ function Main() {
                 <section id="main" className="main Slide">
 
                     <div className='imgcont'>
-                        <img className="logo" src={logo} alt="logo"></img>
+                        <video className="logo" muted autoPlay loop >
+                            <source src={mainvid} type="video/mp4" />
+                        </video>
                     </div>
 
 
