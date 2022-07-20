@@ -1,0 +1,342 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.4/dist/web/static/pretendard.css");
+
+h1,
+h3 {
+    margin: 0;
+}
+
+
+body {
+    width: 100%;
+    font-family: Pretendard;
+
+    letter-spacing: -1pt;
+    word-spacing: 1pt;
+    word-break: keep-all;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.Slide {
+    height: 100vh;
+}
+
+
+
+.main {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.imgcont {
+    width: 50%;
+    display: inline;
+    animation: fadein 2.5s;
+}
+
+.logo {
+
+    width: 100%;
+    height: auto;
+}
+
+
+
+.downcont {
+    width: 5%;
+    position: absolute;
+    bottom: 10%;
+    animation-name: fadein-50;
+    animation-duration: 1s;
+}
+
+.down {
+
+    width: 100%;
+    height: auto;
+}
+
+
+
+.Sub1 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
+}
+
+
+.headingcont {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin-left: 8%;
+    margin-top: 3%;
+}
+
+
+.about {
+    position: absolute;
+    display: none;
+    font-size: 25pt;
+    transform: translate(-100%, -50%) rotate(-90deg);
+
+}
+
+
+.Sub1-title {
+
+    display: none;
+    font-size: 50pt;
+    font-weight: 700;
+    line-height: 1.1;
+
+}
+
+.Sub1-content {
+
+    display: none;
+    font-size: 20pt;
+    font-weight: 500;
+    margin: 20px 0 0 10px;
+}
+
+.Sub2 {
+    background: black;
+}
+
+.Sub2-title {
+    display: none;
+    font-size: 50pt;
+    font-weight: 700;
+    line-height: 1.1;
+    width: 900px;
+    z-index: 2;
+    color: white;
+    position: absolute;
+    transform: translate(25%, 250%);
+}
+
+.listcont {
+    height: 100%;
+    width: 100%;
+    overflow-y: hidden;
+    position: absolute;
+}
+
+
+
+
+.Sub3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+
+}
+
+.Sub3-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding-top: 7%;
+}
+
+.Sub3-line {
+    display: none;
+    position: absolute;
+    transform: translateY(-80px);
+    height: 1px;
+    width: 300px;
+    margin-bottom: 200px;
+    background: white;
+}
+
+.Sub3-texts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.Sub3-box {
+    margin: 50px;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+
+
+}
+
+.Sub3-title {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+
+.Sub3-content {
+    font-size: 25px;
+}
+
+
+
+.Sub4 {
+    background: black;
+}
+
+
+@keyframes listloop {
+    0% {
+        opacity: 0%;
+        transform: translateY(0%);
+    }
+
+
+    5% {
+        opacity: 100%;
+    }
+
+    95% {
+        opacity: 100%;
+    }
+
+    100% {
+        opacity: 0%;
+        transform: translateY(-50%);
+    }
+}
+
+.list {
+    width: 100%;
+    text-align: right;
+    font-size: 40px;
+    color: gray;
+    font-weight: 600;
+    animation-name: listloop;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.bggrad {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.7) 50%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 100%);
+    z-index: 1;
+}
+
+.listgrad {}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadein-bw {
+    from {
+        opacity: 0;
+
+        color: black;
+    }
+
+    to {
+        opacity: 1;
+
+        color: white;
+    }
+}
+
+@keyframes fadein-50 {
+    from {
+        opacity: 0;
+    }
+
+    50% {
+
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.fadein-ani {
+    display: inline;
+    animation: fadein 1s;
+}
+
+
+.fadein-ani-1 {
+    display: inline;
+    animation: fadein 1.25s;
+}
+
+.fadein-ani-2 {
+    display: inline;
+    animation: fadein 1.5s;
+}
+
+
+
+.line-ani {
+    display: inline;
+    animation: fadein 0.7s;
+}
+
+.box0-ani {
+
+    display: flex;
+    animation: fadein-bw 1s;
+}
+
+.box1-ani {
+
+    display: flex;
+    animation: fadein-bw 1.25s;
+}
+
+.box2-ani {
+
+    display: flex;
+    animation: fadein-bw 1.5s;
+}
+
+
+
+.Sub3-box-after {
+    color: white !important;
+}
+
+
+@media (max-width: 1000px) {
+    html {
+        width: 1000px;
+    }
+
+    .imgcont {
+        width: 60%;
+    }
+
+    .listcont {
+        width: 1000px;
+    }
+
+}
