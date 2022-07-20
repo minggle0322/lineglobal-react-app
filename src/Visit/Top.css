@@ -15,17 +15,9 @@
     display: inline;
 }
 
-.none {
-    display: none;
-}
-
 .top-logo {
     width: 100%;
     height: auto;
-}
-
-.white {
-    color: white !important;
 }
 
 .menu {
