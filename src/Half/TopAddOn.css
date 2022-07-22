@@ -1,0 +1,14 @@
+.none {
+    display: none;
+}
+
+.half-top .menu>a {
+    font-size: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.black {
+    color: black !important;
+}

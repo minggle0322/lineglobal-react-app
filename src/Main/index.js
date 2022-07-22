@@ -2,9 +2,9 @@ import React, { useEffect } from 'react';
 import $ from 'jquery'
 import PanelSnap from 'panelsnap';
 import List from './listloop'
-import Gallery from './Gallery';
+import Gallery from '../Gallery';
 import './index.css'
-import mainvidmin from '../assets/mainvidmin.mp4'
+import './GalleryAddOn.css'
 
 import mainvid from '../assets/mainvid.mp4'
 import down from '../assets/down.svg'
@@ -64,7 +64,7 @@ function Main() {
     return (
         <>
             <Top />
-            <div id="Main">
+            <div id="Main" class="main-cont">
 
 
                 <section id="main" className="main Slide">

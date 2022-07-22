@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
-import $ from 'jquery'
-import Gallery from './Gallery';
+import Gallery from '../Gallery';
 
 import Top from './Top';
 
@@ -10,10 +9,10 @@ function Notice() {
     }, [])
 
     return (
-        <>
+        <div className="notice">
             <Top />
             <Gallery />
-        </>
+        </div>
     )
 }
 

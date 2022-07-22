@@ -1,15 +1,13 @@
 import React, { useEffect } from 'react';
-import $ from 'jquery'
 import PanelSnap from 'panelsnap';
 import './index.css'
-import './HalfTop.css'
 import BgLine from '../assets/bgline.png'
 import BgPpl from '../assets/bgppl.png'
 import HalfThumb from '../assets/halfthumb.png'
 
 import Down from '../assets/h-down.png'
 
-import HalfTop from './HalfTop';
+import Top from './Top';
 
 function Half() {
 
@@ -25,7 +23,7 @@ function Half() {
 
     return (
         <>
-            <HalfTop />
+            <Top />
             <div id="half">
                 <section className="h-main Slide">
                     <span className='title'>HALF&HALF</span>

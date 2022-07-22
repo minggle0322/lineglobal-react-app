@@ -4,7 +4,8 @@ import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import $ from 'jquery'
 
-import './HalfTop.css'
+import '../Top.css'
+import './TopAddOn.css'
 import Toplogob from '../assets/logo-b.png'
 import Toplogow from '../assets/logo-w.png'
 
@@ -29,7 +30,7 @@ class HalfTop extends React.Component {
                 $('.logo-w').addClass('none');
                 $('.logo-b').removeClass('none');
 
-                $('.h-menu>a').addClass('black');
+                $('.menu>a').addClass('black');
 
             }
 
@@ -38,7 +39,7 @@ class HalfTop extends React.Component {
                 $('.logo-w').removeClass('none');
 
 
-                $('.h-menu>a').removeClass('black');
+                $('.menu>a').removeClass('black');
             }
         });
     }
@@ -46,23 +47,23 @@ class HalfTop extends React.Component {
 
     render() {
         return (
-            <div className="Top">
+            <div className="Top half-top">
                 <div className='top-logo-cont'>
                     <Link to='/#main' onClick={this.forceUpdate}>
                         <img className="top-logo logo-w " src={Toplogow} alt="logo"></img>
                         <img className="top-logo logo-b none" src={Toplogob} alt="logo"></img>
                     </Link>
                 </div>
-                <ol className='h-menu'>
+                <ol className='menu'>
                     <Link to='/#about' onClick={this.forceUpdate}>ABOUT</Link>
 
                     <Link to='/#gallery' onClick={this.forceUpdate}>GALLERY</Link>
 
                     <Link to='/halfandhalf/#half'>HALF&HALF</Link>
 
-                    <Link to='/notice'>NOTICE</Link>
+                    <Link to='/notice' onClick={this.forceUpdate}>NOTICE</Link>
 
-                    <Link to='/visit'>VISIT US</Link>
+                    <Link to='/visit' onClick={this.forceUpdate}>VISIT US</Link>
                 </ol>
             </div >
 

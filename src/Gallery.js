@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
-import $ from 'jquery'
 
 import './Gallery.css'
-import Default from '../assets/default.jpg'
+import Default from './assets/default.jpg'
 
 
 function Card(props) {

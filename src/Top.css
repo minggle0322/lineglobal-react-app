@@ -15,17 +15,9 @@
     display: inline;
 }
 
-.none {
-    display: none;
-}
-
 .top-logo {
     width: 100%;
     height: auto;
-}
-
-.white {
-    color: white !important;
 }
 
 .menu {
@@ -34,7 +26,6 @@
 
 .menu>a {
     font-size: 20px;
-    margin-left: 20px;
+    margin-left: 35px;
     text-decoration: none;
-    color: black;
 }
