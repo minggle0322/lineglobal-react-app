@@ -29,6 +29,9 @@ class Top extends React.Component {
 
                     <Link to='/visit' onClick={this.forceUpdate}>VISIT US</Link>
                 </ol>
+                
+
+                <div className="mobile-menu-icon">☰</div>
             </div >
 
         )

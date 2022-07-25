@@ -68,13 +68,3 @@
 .contact-list>.content {
     font-size: 16pt;
 }
-
-
-
-
-@media (max-width: 1000px) {
-    html {
-        width: 1000px;
-    }
-
-}
