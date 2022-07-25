@@ -39,7 +39,6 @@ body {
 .imgcont {
     height: 100%;
     width: 100%;
-    d: inline;
 }
 
 .logo {
@@ -89,6 +88,7 @@ body {
     transform: translate(-100%, -50%) rotate(-90deg);
 
 }
+
 .about-mobile {
     position: absolute;
     display: none;
@@ -143,8 +143,8 @@ body {
     left: 15%;
 }
 
-.Sub2-title-mobile{
-    
+.Sub2-title-mobile {
+
     display: none;
     font-size: 30pt;
     font-weight: 700;
@@ -213,7 +213,7 @@ body {
 
 .Sub3-content {
     font-size: 25px;
-    font-weight:500;
+    font-weight: 500;
 }
 
 
@@ -360,66 +360,76 @@ body {
 
     .Sub1-content-mobile {
         display: inline;
-        font-size:15pt;
-        margin:20px 0;
+        font-size: 15pt;
+        margin: 20px 0;
+    }
+
+    .imgcont {
+        overflow-x: hidden;
     }
 
     .logo {
-        width:auto;
+        width: auto;
         transform: translateX(-12.5%);
     }
-    .Sub1-title{
-        font-size:35pt;
-        width:80%;
+
+    .Sub1-title {
+        font-size: 35pt;
+        width: 80%;
     }
-    .about-mobile{
-        display:inline;
+
+    .about-mobile {
+        display: inline;
         transform: translate(-80%, -50%) rotate(-90deg);
     }
-    .headingcont{
-        width:75%;
-        margin-left:13%;
+
+    .headingcont {
+        width: 75%;
+        margin-left: 13%;
     }
 
-    .Sub2-title{
-        font-size:40pt;
+    .Sub2-title {
+        font-size: 40pt;
     }
 
-    .fadein-ani{
-        display:none;
+    .fadein-ani {
+        display: none;
     }
 
-    .Sub2-title-mobile{
-        display:inline;
+    .Sub2-title-mobile {
+        display: inline;
         top: 40%;
     }
 
-    .list{
-        font-size:20pt;
+    .list {
+        font-size: 20pt;
     }
-    
-    .bggrad{
+
+    .bggrad {
         background: radial-gradient(ellipse at right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0.7) 50%, rgba(0, 0, 0, 1) 100%);
     }
-    .Sub3-cont{
-        flex-direction:column;
+
+    .Sub3-cont {
+        flex-direction: column;
         justify-content: space-between !important;
-        height:50%;
+        height: 50%;
     }
 
-    .Sub3-line{
-        display:none;
-    }
-    .Sub3-box{
-        
-        width:90%;
-    }
-    .Sub3-title{
-        font-size:27pt;
+    .Sub3-line {
+        display: none;
     }
 
-    .Sub3-content{
-        font-size:15pt;
+    .Sub3-box {
+
+        width: 90%;
+    }
+
+    .Sub3-title {
+        font-size: 27pt;
+    }
+
+    .Sub3-content {
+        font-size: 15pt;
     }
 
 
