@@ -354,6 +354,11 @@ body {
 
 @media (max-width: 900px) {
 
+
+    body {
+        background: black;
+    }
+
     .Sub1-content-mobile {
         display: inline;
         font-size: 15pt;
@@ -366,7 +371,10 @@ body {
 
     .logo {
         width: auto;
-        transform: translateX(-12.5%);
+        position: absolute;
+        height: 70%;
+        transform: translateX(-5%);
+        bottom: 10%;
     }
 
     .Sub1-title {
