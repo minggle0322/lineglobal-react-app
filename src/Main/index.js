@@ -82,7 +82,7 @@ function Main() {
                 <section id="main" className="main Slide">
 
                     <div className='imgcont'>
-                        <video className="logo" muted autoPlay loop >
+                        <video className="logo" muted autoPlay loop playsInline>
                             <source src={mainvid} type="video/mp4" />
                         </video>
                     </div>
