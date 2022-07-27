@@ -359,13 +359,9 @@ body {
         background: black;
     }
 
-    .Sub1-content-mobile {
-        display: inline;
-        font-size: 15pt;
-        margin: 20px 0;
-    }
 
     .imgcont {
+        width: 100vw;
         overflow-x: hidden;
     }
 
@@ -375,6 +371,12 @@ body {
         height: 70%;
         transform: translateX(-7%);
         bottom: 10%;
+    }
+
+    .Sub1-content-mobile {
+        display: inline;
+        font-size: 15pt;
+        margin: 20px 0;
     }
 
     .Sub1-title {
