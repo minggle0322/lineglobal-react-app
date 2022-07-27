@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import $ from 'jquery'
 import PanelSnap from 'panelsnap';
 import List from './listloop'
@@ -25,40 +25,52 @@ function isScrolledIntoView(elem) {
 
 // listen for scroll event
 
-function Main() {
 
+
+
+function Main() {
     useEffect(() => {
 
-        Main.panelSnapInstance = new PanelSnap({
-            panelSelector: '> #root > #App > #Main > section',
-            directionThreshold: 0,
-            delay: 0,
-            duration: 500,
-        });
+        if (window.innerWidth > 900) {
 
-        $(window).scroll(function () {
-            // check if element is scrolled into view
-            if (isScrolledIntoView($('.Sub1'))) {
-                $('.about').addClass('fadein-ani');
+            $(function () {
 
-                $('.Sub1-title').addClass('fadein-ani-1');
-                $('.Sub1-content').addClass('fadein-ani-2');
-                // element is scrolled into view, add animation class
-            }
-            if (isScrolledIntoView($('.Sub2'))) {
-                $('.Sub2-title').addClass('fadein-ani');
-                // element is scrolled into view, add animation class
-            }
-            if (isScrolledIntoView($('.Sub3'))) {
-                $('.Sub3-line').addClass('line-ani');
-                $('.box0').addClass('box0-ani');
-                $('.box1').addClass('box1-ani');
-                $('.box2').addClass('box2-ani');
+                Main.panelSnapInstance = new PanelSnap({
+                    panelSelector: '> #root > #App > #Main > section',
+                    directionThreshold: 0,
+                    delay: 0,
+                    duration: 500,
+                });
 
-                $('.Sub3-box').addClass('Sub3-box-after');
-                // element is scrolled into view, add animation class
-            }
-        });
+
+
+                $(window).scroll(function () {
+                    // check if element is scrolled into view
+                    if (isScrolledIntoView($('.Sub1'))) {
+                        $('.about').addClass('fadein-ani');
+
+                        $('.Sub1-title').addClass('fadein-ani-1');
+                        $('.Sub1-content').addClass('fadein-ani-2');
+                        // element is scrolled into view, add animation class
+                    }
+                    if (isScrolledIntoView($('.Sub2'))) {
+                        $('.Sub2-title').addClass('fadein-ani');
+                        // element is scrolled into view, add animation class
+                    }
+                    if (isScrolledIntoView($('.Sub3'))) {
+                        $('.Sub3-line').addClass('line-ani');
+                        $('.box0').addClass('box0-ani');
+                        $('.box1').addClass('box1-ani');
+                        $('.box2').addClass('box2-ani');
+
+                        $('.Sub3-box').addClass('Sub3-box-after');
+                        // element is scrolled into view, add animation class
+                    }
+                });
+            });
+        }
+
+
     }, [])
 
     return (
@@ -86,7 +98,7 @@ function Main() {
                     <div className='headingcont'>
 
                         <div className='about'>about us</div>
-                        
+
                         <div className='about-mobile'>about us</div>
                         <h1 className='Sub1-title'>신뢰받는 라인글로벌로<br />성장해나가고 있습니다. </h1>
 

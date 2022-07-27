@@ -354,10 +354,6 @@ body {
 
 @media (max-width: 900px) {
 
-    .fadein-ani-2 {
-        display: none;
-    }
-
     .Sub1-content-mobile {
         display: inline;
         font-size: 15pt;
@@ -374,6 +370,7 @@ body {
     }
 
     .Sub1-title {
+        display: inline;
         font-size: 35pt;
         width: 80%;
     }
@@ -390,10 +387,6 @@ body {
 
     .Sub2-title {
         font-size: 40pt;
-    }
-
-    .fadein-ani {
-        display: none;
     }
 
     .Sub2-title-mobile {
@@ -416,12 +409,15 @@ body {
     }
 
     .Sub3-line {
-        display: none;
+        display: inline;
+        top: 17%;
+        width: 150px;
     }
 
     .Sub3-box {
 
         width: 90%;
+        color: white;
     }
 
     .Sub3-title {
@@ -430,6 +426,14 @@ body {
 
     .Sub3-content {
         font-size: 15pt;
+    }
+
+    .fadein-ani {
+        display: none;
+    }
+
+    .fadein-ani-2 {
+        display: none;
     }
 
 
