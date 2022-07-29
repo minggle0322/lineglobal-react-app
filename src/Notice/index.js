@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import Gallery from '../Gallery';
+import Gallery from './Gallery';
 
 import Top from './Top';
 

@@ -13,6 +13,8 @@ body {
     letter-spacing: -1pt;
     word-spacing: 1pt;
     word-break: keep-all;
+
+    display: relative;
 }
 
 ::-webkit-scrollbar {
@@ -451,5 +453,23 @@ body {
         display: none;
     }
 
+
+}
+
+
+@media (max-width: 399px) and (min-width: 0px) {
+
+    .Sub1-title {
+        font-size: 30pt;
+    }
+
+    .headingcont {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .Sub3-title {
+        font-size: 24pt;
+    }
 
 }
