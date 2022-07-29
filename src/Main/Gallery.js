@@ -34,12 +34,12 @@ function CardBundle(props) {
             <div className='gallery-contents'>
                 <div className='cards'>
 
-                    <Card src={Default} title="제목" content="설명입니다." />
-                    <Card src={Default} title="제목" content="설명입니다." />
-                    <Card src={Default} title="제목" content="설명입니다." />
-                    <Card src={Default} title="제목" content="설명입니다." />
-                    <Card src={Default} title="제목" content="설명입니다." />
-                    <Card src={Default} title="제목" content="설명입니다." />
+                    <Card src={Photo1} title="Blue cap" content="" />
+                    <Card src={Photo2} title="Camisole" content="" />
+                    <Card src={Photo3} title="Skirts" content="" />
+                    <Card src={Photo4} title="Shirts" content="" />
+                    <Card src={Photo5} title="Shorts" content="" />
+                    <Card src={Photo6} title="Unbalanced Slit Top" content="" />
 
 
                 </div>
