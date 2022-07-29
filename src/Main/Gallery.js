@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import '../Gallery.css'
 import Default from '../assets/default.jpg'
 
-import BlueCap001 from '../assets/goods/001bluecap.png'
+import Photo1 from '../assets/goods/0.png'
 import Photo2 from '../assets/goods/1.png'
 import Photo3 from '../assets/goods/2.png'
 import Photo4 from '../assets/goods/3.png'
@@ -34,8 +34,8 @@ function CardBundle(props) {
             <div className='gallery-contents'>
                 <div className='cards'>
 
-                    <Card src={BlueCap001} title="청색 캡" content="설명입니다." />
-                    <Card src={Photo2} title="제목" content="설명입니다." />
+                    <Card src={Default} title="제목" content="설명입니다." />
+                    <Card src={Default} title="제목" content="설명입니다." />
                     <Card src={Default} title="제목" content="설명입니다." />
                     <Card src={Default} title="제목" content="설명입니다." />
                     <Card src={Default} title="제목" content="설명입니다." />
