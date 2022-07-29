@@ -59,6 +59,7 @@
 .mobile-menu-fixed {
     position: absolute;
     background-color: transparent;
+    visibility: hidden;
 
 }
 
