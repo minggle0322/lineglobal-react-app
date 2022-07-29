@@ -7,6 +7,7 @@ import Notice from './Notice/index.js';
 
 import Visit from './Visit/index.js';
 import NotFound from './NotFound';
+import Translation from './translation/Main/index.js';
 
 function App() {
     return (
