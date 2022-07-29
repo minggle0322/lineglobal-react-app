@@ -4,10 +4,10 @@ import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import $ from 'jquery'
 
-import '../Top.css'
+import 'Top.css'
 import './TopAddOn.css'
-import Toplogob from '../assets/logo-b.png'
-import Toplogow from '../assets/logo-w.png'
+import Toplogob from 'assets/logo-b.png'
+import Toplogow from 'assets/logo-w.png'
 
 
 class HalfTop extends React.Component {

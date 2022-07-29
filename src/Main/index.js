@@ -26,8 +26,6 @@ function isScrolledIntoView(elem) {
 // listen for scroll event
 
 
-
-
 function Main() {
     useEffect(() => {
 
@@ -43,30 +41,49 @@ function Main() {
                 });
 
 
+                // IntersectionObserver 를 등록한다.
+                const sub1 = new IntersectionObserver(entries => {
+                    entries.forEach(entry => {
+                        // 관찰 대상이 viewport 안에 들어온 경우 'tada' 클래스를 추가
+                        if (entry.intersectionRatio > 0) {
+                            $('.about').addClass('fadein-ani');
+                            $('.Sub1-title').addClass('fadein-ani-1');
+                            $('.Sub1-content').addClass('fadein-ani-2');
+                        }
+                    })
+                }, { threshold: [0.5] });
 
-                $(window).scroll(function () {
-                    // check if element is scrolled into view
-                    if (isScrolledIntoView($('.Sub1'))) {
-                        $('.about').addClass('fadein-ani');
+                const sub2 = new IntersectionObserver(entries => {
+                    entries.forEach(entry => {
+                        if (entry.intersectionRatio > 0) {
 
-                        $('.Sub1-title').addClass('fadein-ani-1');
-                        $('.Sub1-content').addClass('fadein-ani-2');
-                        // element is scrolled into view, add animation class
-                    }
-                    if (isScrolledIntoView($('.Sub2'))) {
-                        $('.Sub2-title').addClass('fadein-ani');
-                        // element is scrolled into view, add animation class
-                    }
-                    if (isScrolledIntoView($('.Sub3'))) {
-                        $('.Sub3-line').addClass('line-ani');
-                        $('.box0').addClass('box0-ani');
-                        $('.box1').addClass('box1-ani');
-                        $('.box2').addClass('box2-ani');
+                            $('.Sub1-content').addClass('fadein-ani-2');
+                            $('.Sub2-title').addClass('fadein-ani');
+                        }
 
-                        $('.Sub3-box').addClass('Sub3-box-after');
-                        // element is scrolled into view, add animation class
-                    }
-                });
+                    })
+                }, { threshold: [0.5] });
+
+                const sub3 = new IntersectionObserver(entries => {
+                    entries.forEach(entry => {
+                        if (entry.intersectionRatio > 0) {
+
+                            $('.Sub3-line').addClass('line-ani');
+                            $('.box0').addClass('box0-ani');
+                            $('.box1').addClass('box1-ani');
+                            $('.box2').addClass('box2-ani');
+
+                            $('.Sub3-box').addClass('Sub3-box-after');
+                        }
+
+                    })
+                }, { threshold: [0.5] });
+
+                // 관찰할 대상을 선언하고, 해당 속성을 관찰시킨다.
+                sub1.observe($('.Sub1')[0]);
+                sub2.observe($('.Sub2')[0]);
+                sub3.observe($('.Sub3')[0]);
+
             });
         }
         window.addEventListener("resize", function () {
@@ -80,31 +97,6 @@ function Main() {
                     duration: 500,
                 });
 
-
-
-                $(window).scroll(function () {
-                    // check if element is scrolled into view
-                    if (isScrolledIntoView($('.Sub1'))) {
-                        $('.about').addClass('fadein-ani');
-
-                        $('.Sub1-title').addClass('fadein-ani-1');
-                        $('.Sub1-content').addClass('fadein-ani-2');
-                        // element is scrolled into view, add animation class
-                    }
-                    if (isScrolledIntoView($('.Sub2'))) {
-                        $('.Sub2-title').addClass('fadein-ani');
-                        // element is scrolled into view, add animation class
-                    }
-                    if (isScrolledIntoView($('.Sub3'))) {
-                        $('.Sub3-line').addClass('line-ani');
-                        $('.box0').addClass('box0-ani');
-                        $('.box1').addClass('box1-ani');
-                        $('.box2').addClass('box2-ani');
-
-                        $('.Sub3-box').addClass('Sub3-box-after');
-                        // element is scrolled into view, add animation class
-                    }
-                });
             }
         })
 
