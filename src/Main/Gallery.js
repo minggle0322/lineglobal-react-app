@@ -34,8 +34,8 @@ function CardBundle(props) {
             <div className='gallery-contents'>
                 <div className='cards'>
 
-                    <Card src={Default} title="청색 캡" content="설명입니다." />
-                    <Card src={Default} title="제목" content="설명입니다." />
+                    <Card src={BlueCap001} title="청색 캡" content="설명입니다." />
+                    <Card src={Photo2} title="제목" content="설명입니다." />
                     <Card src={Default} title="제목" content="설명입니다." />
                     <Card src={Default} title="제목" content="설명입니다." />
                     <Card src={Default} title="제목" content="설명입니다." />
