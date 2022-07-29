@@ -21,7 +21,12 @@ function App() {
                     <Route path="/notice" element={<Notice />} />
 
                     <Route path="/visit" element={<Visit />} />
+                    <Route path="/en" element={<Translation/>} />
+
+
                     <Route path="/*" element={<NotFound />} />
+
+                    
                 </Routes>
             </BrowserRouter>
         </div >
