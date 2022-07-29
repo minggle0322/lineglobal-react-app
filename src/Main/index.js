@@ -71,38 +71,41 @@ function Main() {
         }
         window.addEventListener("resize", function () {
 
-            Main.panelSnapInstance = new PanelSnap({
-                panelSelector: '> #root > #App > #Main > section',
-                directionThreshold: 0,
-                delay: 0,
-                duration: 500,
-            });
+            if (window.innerWidth > 900) {
+
+                Main.panelSnapInstance = new PanelSnap({
+                    panelSelector: '> #root > #App > #Main > section',
+                    directionThreshold: 0,
+                    delay: 0,
+                    duration: 500,
+                });
 
 
 
-            $(window).scroll(function () {
-                // check if element is scrolled into view
-                if (isScrolledIntoView($('.Sub1'))) {
-                    $('.about').addClass('fadein-ani');
+                $(window).scroll(function () {
+                    // check if element is scrolled into view
+                    if (isScrolledIntoView($('.Sub1'))) {
+                        $('.about').addClass('fadein-ani');
 
-                    $('.Sub1-title').addClass('fadein-ani-1');
-                    $('.Sub1-content').addClass('fadein-ani-2');
-                    // element is scrolled into view, add animation class
-                }
-                if (isScrolledIntoView($('.Sub2'))) {
-                    $('.Sub2-title').addClass('fadein-ani');
-                    // element is scrolled into view, add animation class
-                }
-                if (isScrolledIntoView($('.Sub3'))) {
-                    $('.Sub3-line').addClass('line-ani');
-                    $('.box0').addClass('box0-ani');
-                    $('.box1').addClass('box1-ani');
-                    $('.box2').addClass('box2-ani');
+                        $('.Sub1-title').addClass('fadein-ani-1');
+                        $('.Sub1-content').addClass('fadein-ani-2');
+                        // element is scrolled into view, add animation class
+                    }
+                    if (isScrolledIntoView($('.Sub2'))) {
+                        $('.Sub2-title').addClass('fadein-ani');
+                        // element is scrolled into view, add animation class
+                    }
+                    if (isScrolledIntoView($('.Sub3'))) {
+                        $('.Sub3-line').addClass('line-ani');
+                        $('.box0').addClass('box0-ani');
+                        $('.box1').addClass('box1-ani');
+                        $('.box2').addClass('box2-ani');
 
-                    $('.Sub3-box').addClass('Sub3-box-after');
-                    // element is scrolled into view, add animation class
-                }
-            });
+                        $('.Sub3-box').addClass('Sub3-box-after');
+                        // element is scrolled into view, add animation class
+                    }
+                });
+            }
         })
 
 
