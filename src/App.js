@@ -7,7 +7,11 @@ import Notice from './Notice/index.js';
 
 import Visit from './Visit/index.js';
 import NotFound from './NotFound';
-import Translation from './translation/Main/index.js';
+
+import Main_en from './translation/Main/index.js';
+import Half_en from './translation/Half/index.js';
+import Visit_en from './translation/Visit/index.js';
+import Notice_en from './translation/Notice/index.js';
 
 function App() {
     return (
@@ -22,7 +26,10 @@ function App() {
                     <Route path="/notice" element={<Notice />} />
 
                     <Route path="/visit" element={<Visit />} />
-                    <Route path="/en" element={<Translation/>} />
+                    <Route path="/en" element={<Main_en/>} />
+                    <Route path="/en/halfandhalf" element={<Half_en/>} />
+                    <Route path="/en/visit" element={<Visit_en/>} />
+                    <Route path="/en/notice" element={<Notice_en/>} />
 
 
                     <Route path="/*" element={<NotFound />} />
