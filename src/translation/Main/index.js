@@ -6,8 +6,8 @@ import Gallery from './Gallery';
 import './index.css'
 import './GalleryAddOn.css'
 
-import mainvid from '../assets/mainvid.mp4'
-import down from '../assets/down.svg'
+import mainvid from 'assets/mainvid.mp4'
+import down from 'assets/down.svg'
 
 import Top from './Top';
 

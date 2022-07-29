@@ -3,9 +3,9 @@
 import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 
-import '../Top.css'
+import 'Top.css'
 import './TopAddOn.css'
-import Toplogow from '../assets/logo-w.png'
+import Toplogow from 'assets/logo-w.png'
 
 
 class Top extends React.Component {

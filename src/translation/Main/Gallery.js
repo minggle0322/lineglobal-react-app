@@ -1,15 +1,15 @@
 import React, { useState } from 'react'
 
-import '.../Gallery.css'
-import Default from '.../assets/default.jpg'
+import 'Gallery.css'
+import Default from 'assets/default.jpg'
 
-import Photo1 from '.../assets/goods/0.png'
-import Photo2 from '.../assets/goods/1.png'
-import Photo3 from '.../assets/goods/2.png'
-import Photo4 from '.../assets/goods/3.png'
-import Photo5 from '.../assets/goods/5.png'
-import Photo6 from '.../assets/goods/6.png'
-import Photo7 from '.../assets/goods/7.png'
+import Photo1 from 'assets/goods/0.png'
+import Photo2 from 'assets/goods/1.png'
+import Photo3 from 'assets/goods/2.png'
+import Photo4 from 'assets/goods/3.png'
+import Photo5 from 'assets/goods/5.png'
+import Photo6 from 'assets/goods/6.png'
+import Photo7 from 'assets/goods/7.png'
 
 function Card(props) {
     return <div className='Card'>
