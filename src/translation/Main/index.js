@@ -138,19 +138,19 @@ function Main() {
                         <div className='about'>about us</div>
 
                         <div className='about-mobile'>about us</div>
-                        <h1 className='Sub1-title'>Lineglobal is<br />Growing. </h1>
+                        <h1 className='Sub1-title'>Lineglobal is growing<br />as a trusted business. </h1>
 
-                        <h3 className='Sub1-content'>LINEGLOBAL은 파트너십을 체결하여 브랜드를 기획 육성하고, <br /> 제품을 기획/개발/제조하여 온오프라인 유통망을 구축하는 컨설팅 업체입니다.<br /> 각 사업 부서에서 기획과 제조를 맡아 만족도 높은 결과를 만들어갑니다. </h3>
+                        <h3 className='Sub1-content'>LINEGLOBAL is a consulting firm that plans and fosters brands by signing partnerships, <br /> and establishes an online/offline distribution network by planning/developing/manufacturing products. <br /> Each department is responsible for planning and manufacturing to produce results with high satisfaction. </h3>
 
-                        <h3 className='Sub1-content-mobile'>LINEGLOBAL은 파트너십을 체결하여 브랜드를 기획 육성하고, 제품을 기획/개발/제조하여 온오프라인 유통망을 구축하는 컨설팅 업체입니다. 각 사업 부서에서 기획과 제조를 맡아 만족도 높은 결과를 만들어갑니다. </h3>
+                        <h3 className='Sub1-content-mobile'>LINEGLOBAL is a consulting firm that plans and fosters brands by signing partnerships, and establishes an online/offline distribution network by planning/developing/manufacturing products. Each department is responsible for planning and manufacturing to produce results with high satisfaction.</h3>
 
                     </div>
                 </section>
 
 
                 <section className='Sub2 Slide'>
-                    <h1 className='Sub2-title'>라인글로벌은 경험과 신뢰를 통해<br />고객과의 비전을 만들어갑니다. </h1>
-                    <h1 className='Sub2-title-mobile'>라인글로벌은<br />경험과 신뢰를 통해<br />고객과의 비전을 만들어갑니다. </h1>
+                    <h1 className='Sub2-title'>Lineglobal creates a vision<br />with its customers through experience and trust. </h1>
+                    <h1 className='Sub2-title-mobile'>Lineglobal<br />creates a vision<br />with its customers through experience and trust. </h1>
 
                     <div className='listcont'>
                         <List />
@@ -166,16 +166,16 @@ function Main() {
                     <div className='Sub3-line'> </div>
                     <div className='Sub3-cont'>
                         <div className='Sub3-box box0 Sub3-box-before'>
-                            <h1 className='Sub3-title'>체계적인 기획</h1>
-                            <h3 className='Sub3-content'>systematic planning</h3>
+                            <h1 className='Sub3-title'>Systematic planning</h1>
+                            <h3 className='Sub3-content'></h3>
                         </div>
                         <div className='Sub3-box box1 Sub3-box-before'>
-                            <h1 className='Sub3-title'>최적화된 생산 시스템</h1>
-                            <h3 className='Sub3-content'>optimized production system</h3>
+                            <h1 className='Sub3-title'>Optimized production system</h1>
+                            <h3 className='Sub3-content'></h3>
                         </div>
                         <div className='Sub3-box box2 Sub3-box-before'>
-                            <h1 className='Sub3-title'>보증된 품질</h1>
-                            <h3 className='Sub3-content'>guaranteed quality</h3>
+                            <h1 className='Sub3-title'>Guaranteed quality</h1>
+                            <h3 className='Sub3-content'></h3>
                         </div>
                     </div>
                 </section>
