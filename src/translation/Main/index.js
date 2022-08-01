@@ -140,17 +140,17 @@ function Main() {
                         <div className='about-mobile'>about us</div>
                         <h1 className='Sub1-title'>Lineglobal is growing<br />as a trusted business. </h1>
 
-                        <h3 className='Sub1-content'>LINEGLOBAL is a consulting firm that plans and fosters brands by signing partnerships, <br /> and establishes an online/offline distribution network by planning/developing/manufacturing products. <br /> Each department is responsible for planning and manufacturing to produce results with high satisfaction. </h3>
+                        <h3 className='Sub1-content'>LINEGLOBAL is a consulting firm that plans and fosters brands<br />by signing partnerships, and establishes an online / offline distribution network by planning / developing / manufacturing products. <br /> Each department is responsible for planning and manufacturing to produce results with high satisfaction. </h3>
 
-                        <h3 className='Sub1-content-mobile'>LINEGLOBAL is a consulting firm that plans and fosters brands by signing partnerships, and establishes an online/offline distribution network by planning/developing/manufacturing products. Each department is responsible for planning and manufacturing to produce results with high satisfaction.</h3>
+                        <h3 className='Sub1-content-mobile'>LINEGLOBAL is a consulting firm that plans and fosters brands by signing partnerships, and establishes an online / offline distribution network by planning / developing / manufacturing products. Each department is responsible for planning and manufacturing to produce results with high satisfaction.</h3>
 
                     </div>
                 </section>
 
 
                 <section className='Sub2 Slide'>
-                    <h1 className='Sub2-title'>Lineglobal creates a vision<br />with its customers through experience and trust. </h1>
-                    <h1 className='Sub2-title-mobile'>Lineglobal<br />creates a vision<br />with its customers through experience and trust. </h1>
+                    <h1 className='Sub2-title'>Lineglobal creates a vision<br />with its customers<br />through experience and trust. </h1>
+                    <h1 className='Sub2-title-mobile'>Lineglobal<br />creates a vision<br />with its customers through experience<br />and trust. </h1>
 
                     <div className='listcont'>
                         <List />
