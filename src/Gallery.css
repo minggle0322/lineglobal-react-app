@@ -33,7 +33,7 @@
 
 .gallery-contents {
     width: 50%;
-    min-width:1000px;
+    min-width: 1000px;
     margin-bottom: 200px;
 }
 
@@ -71,6 +71,7 @@
     border-radius: 3%;
     width: 100%;
     height: auto;
+    background-color: white;
 }
 
 .card-texts {
@@ -88,23 +89,24 @@
 
 
 @media (max-width: 900px) {
-    .gallery-contents{
-        width:100%;
+    .gallery-contents {
+        width: 100%;
         min-width: 100%;
     }
-    .cards{
+
+    .cards {
         margin: 0 5%;
     }
 
-    .Card{
-        padding:5%;
+    .Card {
+        padding: 5%;
     }
 
-    .card-title{
-        font-size:20pt;
+    .card-title {
+        font-size: 20pt;
     }
-    .card-content{
-        font-size:15pt;
+
+    .card-content {
+        font-size: 15pt;
     }
 }
-    
