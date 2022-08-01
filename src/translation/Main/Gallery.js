@@ -10,6 +10,12 @@ import Photo4 from 'assets/goods/11.jpg'
 import Photo5 from 'assets/goods/12.jpg'
 import Photo6 from 'assets/goods/13.jpg'
 import Photo7 from 'assets/goods/14.jpg'
+import Photo8 from 'assets/goods/15.jpg'
+import Photo9 from 'assets/goods/16.jpg'
+import Photo10 from 'assets/goods/17.jpg'
+import Photo11 from 'assets/goods/18.jpg'
+import Photo12 from 'assets/goods/19.jpg'
+
 
 function Card(props) {
     return <div className='Card'>
@@ -51,12 +57,12 @@ function CardBundle(props) {
             <div className='gallery-contents'>
                 <div className='cards'>
 
-                    <Card src={Default} title="Title1" content="Contents" />
-                    <Card src={Default} title="Title" content="Contents" />
-                    <Card src={Default} title="Title" content="Contents" />
-                    <Card src={Default} title="Title" content="Contents" />
-                    <Card src={Default} title="Title" content="Contents" />
-                    <Card src={Default} title="Title" content="Contents" />
+                    <Card src={Photo7} title="Title1" content="Contents" />
+                    <Card src={Photo8} title="Title" content="Contents" />
+                    <Card src={Photo9} title="Title" content="Contents" />
+                    <Card src={Photo10} title="Title" content="Contents" />
+                    <Card src={Photo11} title="Title" content="Contents" />
+                    <Card src={Photo12} title="Title" content="Contents" />
 
 
                 </div>
@@ -128,6 +134,7 @@ function CardBundle(props) {
                     <Card src={Default} title="Title" content="Contents" />
                     <Card src={Default} title="Title" content="Contents" />
                     <Card src={Default} title="Title" content="Contents" />
+                    
 
 
                 </div>
