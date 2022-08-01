@@ -3,13 +3,13 @@ import React, { useState } from 'react'
 import 'Gallery.css'
 import Default from 'assets/default.jpg'
 
-import Photo1 from 'assets/goods/0.png'
-import Photo2 from 'assets/goods/1.png'
-import Photo3 from 'assets/goods/2.png'
-import Photo4 from 'assets/goods/3.png'
-import Photo5 from 'assets/goods/5.png'
-import Photo6 from 'assets/goods/6.png'
-import Photo7 from 'assets/goods/7.png'
+import Photo1 from 'assets/goods/8.jpg'
+import Photo2 from 'assets/goods/9.jpg'
+import Photo3 from 'assets/goods/10.jpg'
+import Photo4 from 'assets/goods/11.jpg'
+import Photo5 from 'assets/goods/12.jpg'
+import Photo6 from 'assets/goods/13.jpg'
+import Photo7 from 'assets/goods/14.jpg'
 
 function Card(props) {
     return <div className='Card'>
@@ -34,12 +34,12 @@ function CardBundle(props) {
             <div className='gallery-contents'>
                 <div className='cards'>
 
-                    <Card src={Default} title="Title" content="Contents." />
-                    <Card src={Default} title="Title" content="Contents." />
-                    <Card src={Default} title="Title" content="Contents." />
-                    <Card src={Default} title="Title" content="Contents." />
-                    <Card src={Default} title="Title" content="Contents." />
-                    <Card src={Default} title="Title" content="Contents." />
+                    <Card src={Photo1} title="Title" content="Contents." />
+                    <Card src={Photo2} title="Title" content="Contents." />
+                    <Card src={Photo3} title="Title" content="Contents." />
+                    <Card src={Photo4} title="Title" content="Contents." />
+                    <Card src={Photo5} title="Title" content="Contents." />
+                    <Card src={Photo6} title="Title" content="Contents." />
 
 
                 </div>
