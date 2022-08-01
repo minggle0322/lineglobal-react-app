@@ -19,15 +19,17 @@ class Top extends React.Component {
                     </Link>
                 </div>
                 <ol className='menu'>
-                    <Link to='/#about' >ABOUT</Link>
+                    <Link to='/en/#about' >ABOUT</Link>
 
-                    <Link to='/#gallery' >GALLERY</Link>
+                    <Link to='/en/#gallery' >GALLERY</Link>
 
-                    <Link to='/halfandhalf' onClick={this.forceUpdate}>HALF&HALF</Link>
+                    <Link to='/en/halfandhalf' onClick={this.forceUpdate}>HALF&HALF</Link>
 
-                    <Link to='/notice' onClick={this.forceUpdate}>NOTICE</Link>
+                    <Link to='/en/notice' onClick={this.forceUpdate}>NOTICE</Link>
 
-                    <Link to='/visit' onClick={this.forceUpdate}>VISIT US</Link>
+                    <Link to='/en/visit' onClick={this.forceUpdate}>VISIT US</Link>
+
+                    <Link to='/visit' onClick={this.forceUpdate}>KOR</Link>
                 </ol>
             </div >
 

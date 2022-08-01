@@ -34,10 +34,11 @@ function Half() {
                     </div>
                     <div className='texts'>
 
-                        <div className='title'>하프앤하프와 함께<br />
-                            만들어가는 라이프스토리</div>
+                        <div className='title'>Make a Lifestory<br />
+                            with HALF&HALF</div>
 
-                        <div className='content'>공간을 공간답게, 생활을 생활답게<br />하프앤하프는 고객과 함께 스토리를 만들어나갑니다.</div>
+                        <div className='content'>Just like living in a space<br />HALF&HALF makes a story with customers.</div>
+                        
                     </div>
                 </section>
                 <section className='h-sub2 Slide'>
@@ -47,11 +48,11 @@ function Half() {
                     </div>
                     <div className='texts'>
 
-                        <div className='title'>하프앤하프에서 <br />
-                            찾아가는 나의 절반  </div>
+                        <div className='title'>Finding my Half <br />
+                            From HALF&HALF  </div>
 
-                        <div className='content'>HALF & HALF 는 라이프에 아름다운 가치를 제공하고,<br />
-                            그 가치가 진정한 마음에서 나온다는 기준을 지키고자 합니다.
+                        <div className='content'>HALF&HALF provides an exclusive value to the life,<br />
+                        and promises to save the value from a confession.
                         </div>
                     </div>
                 </section >
@@ -61,12 +62,12 @@ function Half() {
                     <div className='text-cont'>
                         <div className='texts'>
 
-                            <div className='title'>공간의 아름다움과 가치는 작은 것으로부터 <br />
-                                표현할 수 있음을 증명합니다.
+                            <div className='title'>We prove a beauty and a value of space <br />
+                                can be expressed from a small thing.
                             </div>
 
-                            <div className='content'>HALF & HALF 는 모든 사람의 니즈를 존중하고, 만족시키기 위해 그 어떤 패턴도 고집하지 않으며 <br />
-                                선택의 자유, 그 안에서 자신의 가치를 찾아가는 하프앤하프입니다.
+                            <div className='content'>HALF&HALF respects the individuals’ needs, put an effort to satisfy the needs, <br />
+                            and find a value from itself Half&Half.
                             </div>
 
                         </div>

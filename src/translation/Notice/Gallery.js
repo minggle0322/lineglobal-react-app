@@ -27,12 +27,12 @@ function CardBundle(props) {
             <div className='gallery-contents'>
                 <div className='cards'>
 
-                    <Card src={Default} title="제목" content="내용" />
-                    <Card src={Default} title="제목" content="내용" />
-                    <Card src={Default} title="제목" content="내용" />
-                    <Card src={Default} title="제목" content="내용" />
-                    <Card src={Default} title="제목" content="내용" />
-                    <Card src={Default} title="제목" content="내용" />
+                    <Card src={Default} title="Title" content="Contents" />
+                    <Card src={Default} title="Title" content="Contents" />
+                    <Card src={Default} title="Title" content="Contents" />
+                    <Card src={Default} title="Title" content="Contents" />
+                    <Card src={Default} title="Title" content="Contents" />
+                    <Card src={Default} title="Title" content="Contents" />
 
 
                 </div>
@@ -44,12 +44,12 @@ function CardBundle(props) {
             <div className='gallery-contents'>
                 <div className='cards'>
 
-                    <Card src={Default} title="제목1" content="내용" />
-                    <Card src={Default} title="제목" content="내용" />
-                    <Card src={Default} title="제목" content="내용" />
-                    <Card src={Default} title="제목" content="내용" />
-                    <Card src={Default} title="제목" content="내용" />
-                    <Card src={Default} title="제목" content="내용" />
+                    <Card src={Default} title="Title1" content="Contents" />
+                    <Card src={Default} title="Title" content="Contents" />
+                    <Card src={Default} title="Title" content="Contents" />
+                    <Card src={Default} title="Title" content="Contents" />
+                    <Card src={Default} title="Title" content="Contents" />
+                    <Card src={Default} title="Title" content="Contents" />
 
 
                 </div>
@@ -61,12 +61,12 @@ function CardBundle(props) {
             <div className='gallery-contents'>
                 <div className='cards'>
 
-                    <Card src={Default} title="제목2" content="내용" />
-                    <Card src={Default} title="제목" content="내용" />
-                    <Card src={Default} title="제목" content="내용" />
-                    <Card src={Default} title="제목" content="내용" />
-                    <Card src={Default} title="제목" content="내용" />
-                    <Card src={Default} title="제목" content="내용" />
+                    <Card src={Default} title="Title2" content="Contents" />
+                    <Card src={Default} title="Title" content="Contents" />
+                    <Card src={Default} title="Title" content="Contents" />
+                    <Card src={Default} title="Title" content="Contents" />
+                    <Card src={Default} title="Title" content="Contents" />
+                    <Card src={Default} title="Title" content="Contents" />
 
 
                 </div>
@@ -79,12 +79,12 @@ function CardBundle(props) {
             <div className='gallery-contents'>
                 <div className='cards'>
 
-                    <Card src={Default} title="제목3" content="내용" />
-                    <Card src={Default} title="제목" content="내용" />
-                    <Card src={Default} title="제목" content="내용" />
-                    <Card src={Default} title="제목" content="내용" />
-                    <Card src={Default} title="제목" content="내용" />
-                    <Card src={Default} title="제목" content="내용" />
+                    <Card src={Default} title="Title3" content="Contents" />
+                    <Card src={Default} title="Title" content="Contents" />
+                    <Card src={Default} title="Title" content="Contents" />
+                    <Card src={Default} title="Title" content="Contents" />
+                    <Card src={Default} title="Title" content="Contents" />
+                    <Card src={Default} title="Title" content="Contents" />
 
 
                 </div>
@@ -97,12 +97,12 @@ function CardBundle(props) {
             <div className='gallery-contents'>
                 <div className='cards'>
 
-                    <Card src={Default} title="제목4" content="내용" />
-                    <Card src={Default} title="제목" content="내용" />
-                    <Card src={Default} title="제목" content="내용" />
-                    <Card src={Default} title="제목" content="내용" />
-                    <Card src={Default} title="제목" content="내용" />
-                    <Card src={Default} title="제목" content="내용" />
+                    <Card src={Default} title="Title4" content="Contents" />
+                    <Card src={Default} title="Title" content="Contents" />
+                    <Card src={Default} title="Title" content="Contents" />
+                    <Card src={Default} title="Title" content="Contents" />
+                    <Card src={Default} title="Title" content="Contents" />
+                    <Card src={Default} title="Title" content="Contents" />
 
 
                 </div>
@@ -115,12 +115,12 @@ function CardBundle(props) {
             <div className='gallery-contents'>
                 <div className='cards'>
 
-                    <Card src={Default} title="제목5" content="내용" />
-                    <Card src={Default} title="제목" content="내용" />
-                    <Card src={Default} title="제목" content="내용" />
-                    <Card src={Default} title="제목" content="내용" />
-                    <Card src={Default} title="제목" content="내용" />
-                    <Card src={Default} title="제목" content="내용" />
+                    <Card src={Default} title="Title5" content="Contents" />
+                    <Card src={Default} title="Title" content="Contents" />
+                    <Card src={Default} title="Title" content="Contents" />
+                    <Card src={Default} title="Title" content="Contents" />
+                    <Card src={Default} title="Title" content="Contents" />
+                    <Card src={Default} title="Title" content="Contents" />
 
 
                 </div>
@@ -146,20 +146,20 @@ function Gallery() {
                     </li>
 
                     <li eventKey="link-1" onClick={() => { ChangeTab(1) }}>
-                        의류
+                        Clothes
                     </li>
 
                     <li eventKey="link-2" onClick={() => { ChangeTab(2) }}>
-                        유니폼
+                        Uniform
                     </li>
                     <li eventKey="link-2" onClick={() => { ChangeTab(3) }}>
-                        용품
+                        Supplies
                     </li>
                     <li eventKey="link-2" onClick={() => { ChangeTab(4) }}>
-                        가방
+                        Bag
                     </li>
                     <li eventKey="link-2" onClick={() => { ChangeTab(5) }}>
-                        기타
+                        etc
                     </li>
                 </ol>
             </div>
