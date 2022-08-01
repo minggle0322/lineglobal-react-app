@@ -14,7 +14,7 @@ class Top extends React.Component {
         return (
             <div className="Top">
                 <div className='top-logo-cont'>
-                    <Link to='/#main'>
+                    <Link to='/en/#main'>
                         <img className="top-logo logo-b" src={Toplogob} alt="logo"></img>
                     </Link>
                 </div>
