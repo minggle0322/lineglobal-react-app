@@ -66,8 +66,8 @@ function Half() {
                                 can be expressed from a small thing.
                             </div>
 
-                            <div className='content'>HALF&HALF respects the individuals’ needs, put an effort to satisfy the needs, <br />
-                            and find a value from itself Half&Half.
+                            <div className='content'>HALF&HALF respects the individuals’ needs,<br />
+                            put an effort to satisfy the needs, and find a value from itself Half&Half.
                             </div>
 
                         </div>
