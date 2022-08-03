@@ -1,6 +1,6 @@
 
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import $ from 'jquery'
 
@@ -9,68 +9,62 @@ import './TopAddOn.css'
 import Toplogob from 'assets/logo-b.png'
 import Toplogow from 'assets/logo-w.png'
 
-
-class HalfTop extends React.Component {
-    componentDidMount() {
-        function isScrolledIntoView(elem) {
-            var docViewTop = $(window).scrollTop();
-            var docViewBottom = docViewTop + $(window).height();
-
-            var elemTop = $(elem).offset().top;
-            var elemBottom = elemTop + $(elem).height();
-
-            return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
-        };
-
-        $(window).scroll(function () {
-            // check if element is scrolled into view
-            if (isScrolledIntoView($(".h-sub3"))) {
+function useForceUpdate() {
+    const [value, setValue] = useState(0); // integer state
+    return () => setValue(value => value + 1); // update state to force render
+    // An function that increment 👆🏻 the previous state like here 
+    // is better than directly setting `value + 1`
+}
+function HalfTop() {
 
 
-                $('.logo-w').addClass('none');
-                $('.logo-b').removeClass('none');
+    const forceUpdate = useForceUpdate();
+    useEffect(() => {
+        const hsub3 = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.intersectionRatio > 0) {
 
-                $('.menu>a').addClass('black');
+                    $('.logo-w').addClass('none');
+                    $('.logo-b').removeClass('none');
 
-            }
+                    $('.menu>a').addClass('black');
+                }
+                else {
+                    $('.logo-b').addClass('none');
+                    $('.logo-w').removeClass('none');
 
-            else {
-                $('.logo-b').addClass('none');
-                $('.logo-w').removeClass('none');
+                    $('.menu>a').removeClass('black');
+                }
 
+            })
+        }, { threshold: [0.5] });
+        hsub3.observe(document.querySelector('.h-sub3'));
 
-                $('.menu>a').removeClass('black');
-            }
-        });
-    }
+    }, [])
+    return (
+        <div className="Top half-top">
+            <div className='top-logo-cont'>
+                <Link to='/#main' onClick={forceUpdate}>
+                    <img className="top-logo logo-w " src={Toplogow} alt="logo"></img>
+                    <img className="top-logo logo-b none" src={Toplogob} alt="logo"></img>
+                </Link>
+            </div>
+            <ol className='menu'>
+                <Link to='/#about' onClick={forceUpdate}>ABOUT</Link>
 
+                <Link to='/#gallery' onClick={forceUpdate}>GALLERY</Link>
 
-    render() {
-        return (
-            <div className="Top half-top">
-                <div className='top-logo-cont'>
-                    <Link to='/en/#main' onClick={this.forceUpdate}>
-                        <img className="top-logo logo-w " src={Toplogow} alt="logo"></img>
-                        <img className="top-logo logo-b none" src={Toplogob} alt="logo"></img>
-                    </Link>
-                </div>
-                <ol className='menu'>
-                    <Link to='/en/#about' onClick={this.forceUpdate}>ABOUT</Link>
+                <Link to='/halfandhalf/#half'>HALF&HALF</Link>
 
-                    <Link to='/en/#gallery' onClick={this.forceUpdate}>GALLERY</Link>
+                <Link to='/notice' onClick={forceUpdate}>NOTICE</Link>
 
-                    <Link to='/en/halfandhalf'>HALF&HALF</Link>
+                <Link to='/visit' onClick={forceUpdate}>VISIT US</Link>
 
-                    <Link to='/en/notice' onClick={this.forceUpdate}>NOTICE</Link>
+                <Link to='/en/halfandhalf' onClick={forceUpdate}>ENG</Link>
+            </ol>
+        </div >
 
-                    <Link to='/en/visit' onClick={this.forceUpdate}>VISIT US</Link>
-
-                    <Link to='/halfandhalf' onClick={this.forceUpdate}>KOR</Link>
-                </ol>
-            </div >
-
-        )
-    }
+    )
 }
 
 export default HalfTop;
