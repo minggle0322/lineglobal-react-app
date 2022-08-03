@@ -49,7 +49,7 @@ class HalfTop extends React.Component {
         return (
             <div className="Top half-top">
                 <div className='top-logo-cont'>
-                    <Link to='/#main' onClick={this.forceUpdate}>
+                    <Link to='/en/#main' onClick={this.forceUpdate}>
                         <img className="top-logo logo-w " src={Toplogow} alt="logo"></img>
                         <img className="top-logo logo-b none" src={Toplogob} alt="logo"></img>
                     </Link>

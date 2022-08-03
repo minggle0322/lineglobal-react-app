@@ -39,7 +39,7 @@ function Notice() {
 
 
                     <div className='contact-info'>
-                        <List title="TEL" content="02-3453-9939" />
+                        <List title="TEL" content="010-8669-5259" />
                         <List title="EMAIL" content="info@lineglobal17.com" />
                         <List title="SNS" content="카카오톡" />
                     </div>
