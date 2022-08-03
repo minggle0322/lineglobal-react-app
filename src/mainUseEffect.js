@@ -2,7 +2,8 @@ import $ from 'jquery'
 import PanelSnap from 'panelsnap'
 import Main from 'Main/index'
 
-function effect() {
+function mainUseEffect() {
+
     if (window.innerWidth > 900) {
 
         $(function () {
@@ -93,4 +94,4 @@ function effect() {
     })
 }
 
-export default effect;
+export default mainUseEffect;

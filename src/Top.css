@@ -52,6 +52,18 @@
     display: none;
     font-size: 20px;
     width: 20px;
+
+    cursor: pointer;
+}
+
+.mobile-close-icon {
+    display: none;
+    font-size: 40px;
+    width: 20px;
+    z-index: 1;
+    font-weight: 200;
+
+    cursor: pointer;
 }
 
 .mobile-menu-cont {
@@ -60,10 +72,17 @@
 }
 
 .mobile-menu-fixed {
-    position: absolute;
-    background-color: transparent;
-    visibility: hidden;
-
+    position: fixed;
+    display: none;
+    background-color: #0000006e;
+    width: 100%;
+    top: 0;
+    right: 0;
+    padding: 7.5%;
+    height: 100%;
+    font-size: 35pt;
+    font-weight: 200;
+    line-height: 1.5;
 }
 
 
@@ -99,11 +118,7 @@
     }
 
     .mobile-menu-fixed {
-        top: 50px;
-        height: 100vh;
-        font-size: 25pt;
-        font-weight: 200;
-        line-height: 1.5;
+        display: none;
     }
 
 
@@ -122,5 +137,9 @@
     .top-logo-cont {
         width: 40%;
         max-width: 140px;
+    }
+
+    .mobile-menu-fixed {
+        padding: 10%;
     }
 }

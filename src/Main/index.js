@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 
-import effect from 'mainUseEffect'
+import mainUseEffect from 'mainUseEffect'
 import List from './listloop'
 import Gallery from './Gallery';
 import './index.css'
@@ -14,7 +14,8 @@ import Top from './Top';
 function Main() {
     useEffect(() => {
 
-        effect();
+        mainUseEffect();
+
 
     }, [])
 
