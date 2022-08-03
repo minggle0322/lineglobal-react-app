@@ -3,10 +3,10 @@ import React, { useState } from 'react'
 import '../Gallery.css'
 import Default from '../assets/default.jpg'
 
-import Photo1 from '../assets/goods/tr1.png'
-import Photo2 from '../assets/goods/tr2.png'
-import Photo3 from '../assets/goods/tr3.png'
-import Photo4 from '../assets/goods/tr4.png'
+import Photo1 from '../assets/goods/0729/tr1.png'
+import Photo2 from '../assets/goods/0801/tr2.png'
+import Photo3 from '../assets/goods/0801/tr3.png'
+import Photo4 from '../assets/goods/0729/tr4.png'
 
 function Card(props) {
     return <div className='Card'>
@@ -35,8 +35,8 @@ function CardBundle(props) {
                     <Card src={Photo2} title="Camisole" content="" />
                     <Card src={Photo3} title="Skirts" content="" />
                     <Card src={Photo4} title="Shirts" content="" />
-                    <Card src={Photo5} title="Shorts" content="" />
-                    <Card src={Photo6} title="Unbalanced Slit Top" content="" />
+                    <Card src={Photo4} title="Shorts" content="" />
+                    <Card src={Photo4} title="Unbalanced Slit Top" content="" />
 
 
                 </div>
