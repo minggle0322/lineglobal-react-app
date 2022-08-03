@@ -7,7 +7,7 @@ import HalfThumb from '../assets/halfthumb.png'
 
 import Down from '../assets/h-down.png'
 
-import Top from './Top';
+import HalfTop from './Top';
 
 function Half() {
 
@@ -23,7 +23,7 @@ function Half() {
 
     return (
         <>
-            <Top />
+            <HalfTop />
             <div id="half">
                 <section className="h-main Slide">
                     <span className='title'>HALF&HALF</span>
