@@ -28,7 +28,7 @@ class Top extends React.Component {
     render() {
         return (
             <div className='top-cont'>
-                <div className="Top main-top">
+                <div className="Top notice-top">
                     <div className='top-logo-cont'>
                         <Link to='/#main'>
                             <img className="top-logo logo-b" src={Toplogob} alt="logo"></img>
