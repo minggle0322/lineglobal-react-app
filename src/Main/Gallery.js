@@ -35,8 +35,6 @@ function CardBundle(props) {
                     <Card src={Photo2} title="Camisole" content="" />
                     <Card src={Photo3} title="Skirts" content="" />
                     <Card src={Photo4} title="Shirts" content="" />
-                    <Card src={Photo5} title="Shorts" content="" />
-                    <Card src={Photo6} title="Unbalanced Slit Top" content="" />
 
 
                 </div>

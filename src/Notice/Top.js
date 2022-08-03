@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 
-import '../Top.css'
+import 'Top.css'
 import './TopAddOn.css'
 import Toplogob from '../assets/logo-b.png'
 class Top extends React.Component {

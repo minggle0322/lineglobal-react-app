@@ -8,61 +8,68 @@ import 'Top.css'
 import './TopAddOn.css'
 import Toplogob from 'assets/logo-b.png'
 import Toplogow from 'assets/logo-w.png'
+class HalfTop extends React.Component {
 
-function useForceUpdate() {
-    const [value, setValue] = useState(0); // integer state
-    return () => setValue(value => value + 1); // update state to force render
-    // An function that increment 👆🏻 the previous state like here 
-    // is better than directly setting `value + 1`
-}
-function HalfTop() {
+    componentDidMount(
+    ) {
 
+        document.querySelector(".mobile-menu-icon").addEventListener("click", function () {
+            document.querySelector(".mobile-menu-fixed").style.display = "inline";
+            document.querySelector(".mobile-menu-icon").style.display = "none";
 
-    const forceUpdate = useForceUpdate();
-    useEffect(() => {
-        const hsub3 = new IntersectionObserver(entries => {
-            entries.forEach(entry => {
-                if (entry.intersectionRatio > 0) {
+            document.querySelector(".mobile-close-icon").style.display = "inline";
+        });
 
-                    $('.logo-w').addClass('none');
-                    $('.logo-b').removeClass('none');
+        document.querySelector(".mobile-close-icon").addEventListener("click", function () {
+            document.querySelector(".mobile-menu-fixed").style.display = "none";
+            document.querySelector(".mobile-menu-icon").style.display = "inline";
 
-                    $('.menu>a').addClass('black');
-                }
-                else {
-                    $('.logo-b').addClass('none');
-                    $('.logo-w').removeClass('none');
+            document.querySelector(".mobile-close-icon").style.display = "none";
+        });
+    }
 
-                    $('.menu>a').removeClass('black');
-                }
+    render() {
+        return (
+            <div className='top-cont'>
+                <div className="Top main-top">
+                    <div className='top-logo-cont'>
+                        <Link to='/#main'>
+                            <img className="top-logo logo-w" src={Toplogow} alt="logo"></img>
+                        </Link>
+                    </div>
+                    <ol className='menu'>
+                        <Link to='/#gallery' >GALLERY</Link>
 
-            })
-        }, { threshold: [0.5] });
-        hsub3.observe(document.querySelector('.h-sub3'));
+                        <Link to='/halfandhalf' onClick={this.forceUpdate}>HALF&HALF</Link>
 
-    }, [])
-    return (
-        <div className="Top half-top">
-            <div className='top-logo-cont'>
-                <Link to='/#main' onClick={forceUpdate}>
-                    <img className="top-logo logo-w " src={Toplogow} alt="logo"></img>
-                    <img className="top-logo logo-b none" src={Toplogob} alt="logo"></img>
-                </Link>
+                        <Link to='/notice' onClick={this.forceUpdate}>NOTICE</Link>
+
+                        <Link to='/visit' onClick={this.forceUpdate}>VISIT US</Link>
+
+                        <Link to='/en' onClick={this.forceUpdate}>ENG</Link>
+                    </ol>
+                    <div className='mobile-menu-cont'>
+
+                        <div className="mobile-menu-icon">☰</div>
+
+                        <div className="mobile-close-icon">X</div>
+                        <div className='mobile-menu-fixed'>
+                            <ol className='mobile-menu'>
+
+                                <Link to='/#gallery' >GALLERY</Link>
+
+                                <Link to='/halfandhalf' onClick={this.forceUpdate}>HALF&HALF</Link>
+
+                                <Link to='/notice' onClick={this.forceUpdate}>NOTICE</Link>
+
+                                <Link to='/visit' onClick={this.forceUpdate}>VISIT US</Link>
+                            </ol>
+
+                        </div>
+                    </div>
+                </div>
             </div>
-            <ol className='menu'>
-                <Link to='/#gallery' onClick={forceUpdate}>GALLERY</Link>
-
-                <Link to='/halfandhalf/#half'>HALF&HALF</Link>
-
-                <Link to='/notice' onClick={forceUpdate}>NOTICE</Link>
-
-                <Link to='/visit' onClick={forceUpdate}>VISIT US</Link>
-
-                <Link to='/en/halfandhalf' onClick={forceUpdate}>ENG</Link>
-            </ol>
-        </div >
-
-    )
+        )
+    }
 }
-
 export default HalfTop;

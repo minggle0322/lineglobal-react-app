@@ -52,7 +52,6 @@ class Top extends React.Component {
                         <div className="mobile-close-icon">X</div>
                         <div className='mobile-menu-fixed'>
                             <ol className='mobile-menu'>
-                                <Link to='/#about' >ABOUT</Link>
 
                                 <Link to='/#gallery' >GALLERY</Link>
 
