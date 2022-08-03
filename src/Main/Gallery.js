@@ -148,10 +148,8 @@ function Gallery() {
                 <div className='gallery-title'>Gallery</div>
 
                 <ol className='nav'>
-                    <li eventKey="link-0" onClick={() => { ChangeTab(0) }}>
-                        All
-                    </li>
-
+                    <li eventKey="link-0" onClick={() => { ChangeTab(0) }}>All</li>
+                    {/*<
                     <li eventKey="link-1" onClick={() => { ChangeTab(1) }}>
                         의류
                     </li>
@@ -167,13 +165,13 @@ function Gallery() {
                     </li>
                     <li eventKey="link-2" onClick={() => { ChangeTab(5) }}>
                         기타
-                    </li>
+                    </li>*/}
                 </ol>
             </div>
 
 
             <CardBundle Tab={Tab} />
-        </div>
+        </div >
 
     )
 }
