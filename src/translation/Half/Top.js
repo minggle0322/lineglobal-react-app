@@ -50,15 +50,15 @@ function HalfTop() {
                 </Link>
             </div>
             <ol className='menu'>
-                <Link to='/#gallery' onClick={forceUpdate}>GALLERY</Link>
+                <Link to='/en/#gallery' onClick={forceUpdate}>GALLERY</Link>
 
-                <Link to='/halfandhalf/#half'>HALF&HALF</Link>
+                <Link to='/en/halfandhalf'>HALF&HALF</Link>
 
-                <Link to='/notice' onClick={forceUpdate}>NOTICE</Link>
+                <Link to='/en/notice' onClick={forceUpdate}>NOTICE</Link>
 
-                <Link to='/visit' onClick={forceUpdate}>VISIT US</Link>
+                <Link to='/en/visit' onClick={forceUpdate}>VISIT US</Link>
 
-                <Link to='/en/halfandhalf' onClick={forceUpdate}>ENG</Link>
+                <Link to='/halfandhalf' onClick={forceUpdate}>KOR</Link>
             </ol>
         </div >
 
