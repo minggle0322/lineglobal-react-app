@@ -48,6 +48,10 @@
     text-decoration: none;
 }
 
+.notice-top .menu>a {
+    color: black;
+}
+
 .mobile-menu-icon {
     display: none;
     font-size: 20px;

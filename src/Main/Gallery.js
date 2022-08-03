@@ -7,9 +7,6 @@ import Photo1 from '../assets/goods/tr1.png'
 import Photo2 from '../assets/goods/tr2.png'
 import Photo3 from '../assets/goods/tr3.png'
 import Photo4 from '../assets/goods/tr4.png'
-import Photo5 from '../assets/goods/5.png'
-import Photo6 from '../assets/goods/6.png'
-import Photo7 from '../assets/goods/7.png'
 
 function Card(props) {
     return <div className='Card'>
@@ -149,7 +146,6 @@ function Gallery() {
 
                 <ol className='nav'>
                     <li eventKey="link-0" onClick={() => { ChangeTab(0) }}>All</li>
-                    {/*<
                     <li eventKey="link-1" onClick={() => { ChangeTab(1) }}>
                         의류
                     </li>
@@ -165,7 +161,8 @@ function Gallery() {
                     </li>
                     <li eventKey="link-2" onClick={() => { ChangeTab(5) }}>
                         기타
-                    </li>*/}
+                    </li>
+                    {/* */}
                 </ol>
             </div>
 

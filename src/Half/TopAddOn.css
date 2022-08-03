@@ -2,13 +2,12 @@
     display: none;
 }
 
-.half-top .menu>a {
-    font-size: 20px;
-    margin-left: 20px;
-    text-decoration: none;
-    color: white;
-}
+.half-top .menu>a {}
 
 .black {
     color: black !important;
+}
+
+.Card {
+    padding: 4%;
 }

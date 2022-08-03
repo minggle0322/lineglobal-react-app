@@ -5,16 +5,10 @@ import { HashLink as Link } from 'react-router-hash-link';
 import '../Top.css'
 import './TopAddOn.css'
 import Toplogow from '../assets/logo-w.png'
+class Top extends React.Component {
 
-function useForceUpdate() {
-    const [value, setValue] = useState(0); // integer state
-    return () => setValue(value => value + 1); // update state to force render
-    // An function that increment 👆🏻 the previous state like here 
-    // is better than directly setting `value + 1`
-}
-
-function Top() {
-    useEffect(() => {
+    componentDidMount(
+    ) {
 
         document.querySelector(".mobile-menu-icon").addEventListener("click", function () {
             document.querySelector(".mobile-menu-fixed").style.display = "inline";
@@ -29,56 +23,51 @@ function Top() {
 
             document.querySelector(".mobile-close-icon").style.display = "none";
         });
+    }
 
-    }, [])
+    render() {
+        return (
+            <div className='top-cont'>
+                <div className="Top main-top">
+                    <div className='top-logo-cont'>
+                        <Link to='/#main'>
+                            <img className="top-logo logo-w" src={Toplogow} alt="logo"></img>
+                        </Link>
+                    </div>
+                    <ol className='menu'>
+                        <Link to='/#gallery' >GALLERY</Link>
 
+                        <Link to='/halfandhalf' onClick={this.forceUpdate}>HALF&HALF</Link>
 
-    const forceUpdate = useForceUpdate();
+                        <Link to='/notice' onClick={this.forceUpdate}>NOTICE</Link>
 
-    return (
-        <div className='top-cont'>
-            <div className="Top main-top">
-                <div className='top-logo-cont'>
-                    <Link to='/#main'>
-                        <img className="top-logo logo-w" src={Toplogow} alt="logo"></img>
-                    </Link>
-                </div>
-                <ol className='menu'>
-                    <Link to='/#about' >ABOUT</Link>
+                        <Link to='/visit' onClick={this.forceUpdate}>VISIT US</Link>
 
-                    <Link to='/#gallery' >GALLERY</Link>
+                        <Link to='/en' onClick={this.forceUpdate}>ENG</Link>
+                    </ol>
+                    <div className='mobile-menu-cont'>
 
-                    <Link to='/halfandhalf' onClick={forceUpdate}>HALF&HALF</Link>
+                        <div className="mobile-menu-icon">☰</div>
 
-                    <Link to='/notice' onClick={forceUpdate}>NOTICE</Link>
+                        <div className="mobile-close-icon">X</div>
+                        <div className='mobile-menu-fixed'>
+                            <ol className='mobile-menu'>
+                                <Link to='/#about' >ABOUT</Link>
 
-                    <Link to='/visit' onClick={forceUpdate}>VISIT US</Link>
+                                <Link to='/#gallery' >GALLERY</Link>
 
-                    <Link to='/en' onClick={forceUpdate}>ENG</Link>
-                </ol>
-                <div className='mobile-menu-cont'>
+                                <Link to='/halfandhalf' onClick={this.forceUpdate}>HALF&HALF</Link>
 
-                    <div className="mobile-menu-icon">☰</div>
+                                <Link to='/notice' onClick={this.forceUpdate}>NOTICE</Link>
 
-                    <div className="mobile-close-icon">X</div>
-                    <div className='mobile-menu-fixed'>
-                        <ol className='mobile-menu'>
-                            <Link to='/#about' >ABOUT</Link>
+                                <Link to='/visit' onClick={this.forceUpdate}>VISIT US</Link>
+                            </ol>
 
-                            <Link to='/#gallery' >GALLERY</Link>
-
-                            <Link to='/halfandhalf' onClick={forceUpdate}>HALF&HALF</Link>
-
-                            <Link to='/notice' onClick={forceUpdate}>NOTICE</Link>
-
-                            <Link to='/visit' onClick={forceUpdate}>VISIT US</Link>
-                        </ol>
-
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    )
+        )
+    }
 }
-
 export default Top;
