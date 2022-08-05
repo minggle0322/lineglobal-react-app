@@ -7,7 +7,7 @@ import HalfThumb from 'assets/halfthumb.png'
 
 import Down from 'assets/h-down.png'
 
-import HalfTop from './Top';
+import Top from 'Top/TopW';
 
 function Half() {
 
@@ -23,7 +23,7 @@ function Half() {
 
     return (
         <>
-            <HalfTop />
+            <Top />
             <div id="half">
                 <section className="h-main Slide">
                     <span className='title'>HALF&HALF</span>
@@ -51,7 +51,7 @@ function Half() {
                             from HALF&HALF  </div>
 
                         <div className='content'>>HALF&HALF provides an exclusive value to the life,<br />
-                        and promises to save the value from a confession.
+                            and promises to save the value from a confession.
                         </div>
                     </div>
                 </section >
@@ -62,11 +62,11 @@ function Half() {
                         <div className='texts'>
 
                             <div className='title'>We prove a beauty and a value of space <br />
-                            can be expressed from a small thing.
+                                can be expressed from a small thing.
                             </div>
 
                             <div className='content'>HALF&HALF respects the individuals’ needs,<br /> <br />
-                            put an effort to satisfy the needs, and find a value from itself Half&Half.
+                                put an effort to satisfy the needs, and find a value from itself Half&Half.
                             </div>
 
                         </div>

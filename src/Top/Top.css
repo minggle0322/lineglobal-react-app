@@ -48,10 +48,6 @@
     text-decoration: none;
 }
 
-.notice-top .menu>a {
-    color: black;
-}
-
 .mobile-menu-icon {
     display: none;
     font-size: 20px;
@@ -66,7 +62,7 @@
     width: 20px;
     z-index: 1;
     font-weight: 200;
-
+    color: white;
     cursor: pointer;
 }
 
@@ -78,7 +74,7 @@
 .mobile-menu-fixed {
     position: fixed;
     display: none;
-    background-color: #0000006e;
+    background-color: #00000099;
     width: 100%;
     top: 0;
     right: 0;
@@ -101,6 +97,22 @@
     color: white;
 }
 
+/* color */
+.white .mobile-menu-icon {
+    color: white;
+}
+
+.white .mobile-close-icon {
+    color: white;
+}
+
+.white .menu>a {
+    color: white;
+}
+
+.black .menu>a {
+    color: black;
+}
 
 @media (max-width: 900px) {
 

@@ -9,7 +9,7 @@ import './GalleryAddOn.css'
 import mainvid from '../assets/mainvid.mp4'
 import down from '../assets/down.svg'
 
-import Top from './Top';
+import Top from 'Top/TopW';
 
 function Main() {
     useEffect(() => {

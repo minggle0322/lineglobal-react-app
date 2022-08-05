@@ -2,10 +2,9 @@
 import React, { useState, useEffect } from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 
-import 'Top.css'
-import './TopAddOn.css'
+import './Top.css'
 import Toplogow from 'assets/logo-w.png'
-class Top extends React.Component {
+class TopW extends React.Component {
 
     componentDidMount(
     ) {
@@ -28,23 +27,22 @@ class Top extends React.Component {
     render() {
         return (
             <div className='top-cont'>
-                <div className="Top main-top">
+                <div className="Top white">
                     <div className='top-logo-cont'>
                         <Link to='/#main'>
-                            <img className="top-logo logo-w" src={Toplogow} alt="logo"></img>
+                            <img className="top-logo" src={Toplogow} alt="logo"></img>
                         </Link>
                     </div>
                     <ol className='menu'>
+                        <Link to='/#gallery' >GALLERY</Link>
 
-                        <Link to='/en/#gallery' >GALLERY</Link>
+                        <Link to='/halfandhalf' onClick={this.forceUpdate}>HALF&HALF</Link>
 
-                        <Link to='/en/halfandhalf' onClick={this.forceUpdate}>HALF&HALF</Link>
+                        <Link to='/notice' onClick={this.forceUpdate}>NOTICE</Link>
 
-                        <Link to='/en/notice' onClick={this.forceUpdate}>NOTICE</Link>
+                        <Link to='/visit' onClick={this.forceUpdate}>VISIT US</Link>
 
-                        <Link to='/en/visit' onClick={this.forceUpdate}>VISIT US</Link>
-
-                        <Link to='/#main' onClick={this.forceUpdate}>KOR</Link>
+                        <Link to='/en' onClick={this.forceUpdate}>ENG</Link>
                     </ol>
                     <div className='mobile-menu-cont'>
 
@@ -70,4 +68,4 @@ class Top extends React.Component {
         )
     }
 }
-export default Top;
+export default TopW;

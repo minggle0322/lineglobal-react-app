@@ -1,12 +1,9 @@
 import React, { useEffect } from 'react';
 import Gallery from './Gallery';
 
-import Top from './Top';
+import Top from 'Top/TopB';
 
 function Notice() {
-
-    useEffect(() => {
-    }, [])
 
     return (
         <div className="notice">

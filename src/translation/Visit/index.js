@@ -1,5 +1,5 @@
 import React from 'react';
-import Top from './Top';
+import Top from 'Top/TopB';
 
 import './index.css';
 
