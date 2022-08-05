@@ -98,19 +98,19 @@
 }
 
 /* color */
-.white .mobile-menu-icon {
+.Top.white .mobile-menu-icon {
     color: white;
 }
 
-.white .mobile-close-icon {
+.Top.white .mobile-close-icon {
     color: white;
 }
 
-.white .menu>a {
+.Top.white .menu>a {
     color: white;
 }
 
-.black .menu>a {
+.Top.black .menu>a {
     color: black;
 }
 

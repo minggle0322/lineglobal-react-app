@@ -59,6 +59,7 @@ class TopW extends React.Component {
                                 <Link to='/notice' onClick={this.forceUpdate}>NOTICE</Link>
 
                                 <Link to='/visit' onClick={this.forceUpdate}>VISIT US</Link>
+                                <Link to='/en' onClick={this.forceUpdate}>ENG</Link>
                             </ol>
 
                         </div>

@@ -4,13 +4,12 @@ import React, { useEffect } from 'react';
 import mainUseEffect from 'mainUseEffect'
 import List from './listloop'
 import Gallery from './Gallery';
-import './index.css'
-import './GalleryAddOn.css'
+import 'Main/index.css'
 
 import mainvid from 'assets/mainvid.mp4'
 import down from 'assets/down.svg'
 
-import Top from 'Top/TopW';
+import Top from '../Top/TopW';
 
 
 

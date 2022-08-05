@@ -27,6 +27,8 @@ function Half() {
             <div id="half">
                 <section className="h-main Slide">
                     <span className='title'>HALF&HALF</span>
+
+                    <span className='m-title'>HALF<br />&<br />HALF</span>
                 </section>
                 <section className='h-sub1 Slide'>
                     <div className='bg-line-cont'>
@@ -67,6 +69,16 @@ function Half() {
 
                             <div className='content'>HALF & HALF 는 모든 사람의 니즈를 존중하고, 만족시키기 위해 그 어떤 패턴도 고집하지 않으며 <br />
                                 선택의 자유, 그 안에서 자신의 가치를 찾아가는 하프앤하프입니다.
+                            </div>
+
+                        </div>
+
+                        <div className='m-texts'>
+
+                            <div className='title'>공간의 아름다움과 가치는 작은 것으로부터 표현할 수 있음을 증명합니다.
+                            </div>
+
+                            <div className='content'>HALF & HALF 는 모든 사람의 니즈를 존중하고, 만족시키기 위해 그 어떤 패턴도 고집하지 않으며, 선택의 자유 그 안에서 자신의 가치를 찾아가는 하프앤하프입니다.
                             </div>
 
                         </div>

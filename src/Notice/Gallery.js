@@ -47,11 +47,12 @@ function Gallery() {
             <div className='gallery-header'>
 
                 <div className='gallery-title'>Notice</div>
+                <div className='temp-content'>공지사항이 없습니다.</div>
 
             </div>
 
 
-            <CardBundle />
+            {/*<CardBundle />*/}
         </div>
 
     )

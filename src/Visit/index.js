@@ -1,7 +1,7 @@
 import React from 'react';
 import Top from 'Top/TopB';
 
-import './index.css';
+import 'Visit/index.css';
 
 function List(props) {
     return (

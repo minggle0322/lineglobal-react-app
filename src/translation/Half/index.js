@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react';
 import PanelSnap from 'panelsnap';
-import './index.css'
+import 'Half/index.css'
 import BgLine from 'assets/bgline.png'
 import BgPpl from 'assets/bgppl.png'
 import HalfThumb from 'assets/halfthumb.png'
 
 import Down from 'assets/h-down.png'
 
-import Top from 'Top/TopW';
+import Top from '../Top/TopW';
 
 function Half() {
 
@@ -27,12 +27,15 @@ function Half() {
             <div id="half">
                 <section className="h-main Slide">
                     <span className='title'>HALF&HALF</span>
+
+                    <span className='m-title'>HALF<br />&<br />HALF</span>
                 </section>
                 <section className='h-sub1 Slide'>
                     <div className='bg-line-cont'>
                         <img src={BgLine} />
                     </div>
                     <div className='texts'>
+
 
                         <div className='title'>Make a Lifestory<br />
                             with HALF&HALF</div>
@@ -46,11 +49,10 @@ function Half() {
                         <img src={BgPpl} />
                     </div>
                     <div className='texts'>
-
                         <div className='title'>Finding my half <br />
                             from HALF&HALF  </div>
 
-                        <div className='content'>>HALF&HALF provides an exclusive value to the life,<br />
+                        <div className='content'>HALF&HALF provides an exclusive value to the life,<br />
                             and promises to save the value from a confession.
                         </div>
                     </div>
@@ -67,6 +69,17 @@ function Half() {
 
                             <div className='content'>HALF&HALF respects the individuals’ needs,<br /> <br />
                                 put an effort to satisfy the needs, and find a value from itself Half&Half.
+                            </div>
+
+
+                        </div>
+
+                        <div className='m-texts'>
+
+                            <div className='title'>We prove a beauty and a value of space can be expressed from a small thing.
+                            </div>
+
+                            <div className='content'>HALF&HALF respects the individuals’ needs, put an effort to satisfy the needs, and find a value from itself Half&Half.
                             </div>
 
                         </div>

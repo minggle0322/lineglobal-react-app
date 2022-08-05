@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 
-import './Top.css'
+import 'Top/Top.css'
 import Toplogob from 'assets/logo-b.png'
 class TopB extends React.Component {
 
@@ -34,15 +34,15 @@ class TopB extends React.Component {
                         </Link>
                     </div>
                     <ol className='menu'>
-                        <Link to='/#gallery' >GALLERY</Link>
+                        <Link to='/en/#gallery' >GALLERY</Link>
 
-                        <Link to='/halfandhalf' onClick={this.forceUpdate}>HALF&HALF</Link>
+                        <Link to='/en/halfandhalf' onClick={this.forceUpdate}>HALF&HALF</Link>
 
-                        <Link to='/notice' onClick={this.forceUpdate}>NOTICE</Link>
+                        <Link to='/en/notice' onClick={this.forceUpdate}>NOTICE</Link>
 
-                        <Link to='/visit' onClick={this.forceUpdate}>VISIT US</Link>
+                        <Link to='/en/visit' onClick={this.forceUpdate}>VISIT US</Link>
 
-                        <Link to='/en' onClick={this.forceUpdate}>ENG</Link>
+                        <Link to='/' onClick={this.forceUpdate}>KOR</Link>
                     </ol>
                     <div className='mobile-menu-cont'>
 
@@ -52,15 +52,15 @@ class TopB extends React.Component {
                         <div className='mobile-menu-fixed'>
                             <ol className='mobile-menu'>
 
-                                <Link to='/#gallery' >GALLERY</Link>
+                                <Link to='/en/#gallery' >GALLERY</Link>
 
-                                <Link to='/halfandhalf' onClick={this.forceUpdate}>HALF&HALF</Link>
+                                <Link to='/en/halfandhalf' onClick={this.forceUpdate}>HALF&HALF</Link>
 
-                                <Link to='/notice' onClick={this.forceUpdate}>NOTICE</Link>
+                                <Link to='/en/notice' onClick={this.forceUpdate}>NOTICE</Link>
 
-                                <Link to='/visit' onClick={this.forceUpdate}>VISIT US</Link>
+                                <Link to='/en/visit' onClick={this.forceUpdate}>VISIT US</Link>
 
-                                <Link to='/en' onClick={this.forceUpdate}>ENG</Link>
+                                <Link to='/' onClick={this.forceUpdate}>KOR</Link>
                             </ol>
 
                         </div>

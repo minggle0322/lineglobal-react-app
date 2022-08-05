@@ -2,9 +2,9 @@
 import React, { useState, useEffect } from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 
-import './Top.css'
-import Toplogob from 'assets/logo-b.png'
-class TopB extends React.Component {
+import 'Top/Top.css'
+import Toplogow from 'assets/logo-w.png'
+class TopW extends React.Component {
 
     componentDidMount(
     ) {
@@ -27,22 +27,22 @@ class TopB extends React.Component {
     render() {
         return (
             <div className='top-cont'>
-                <div className="Top black">
+                <div className="Top white">
                     <div className='top-logo-cont'>
                         <Link to='/#main'>
-                            <img className="top-logo logo-b" src={Toplogob} alt="logo"></img>
+                            <img className="top-logo" src={Toplogow} alt="logo"></img>
                         </Link>
                     </div>
                     <ol className='menu'>
-                        <Link to='/#gallery' >GALLERY</Link>
+                        <Link to='/en/#gallery' >GALLERY</Link>
 
-                        <Link to='/halfandhalf' onClick={this.forceUpdate}>HALF&HALF</Link>
+                        <Link to='/en/halfandhalf' onClick={this.forceUpdate}>HALF&HALF</Link>
 
-                        <Link to='/notice' onClick={this.forceUpdate}>NOTICE</Link>
+                        <Link to='/en/notice' onClick={this.forceUpdate}>NOTICE</Link>
 
-                        <Link to='/visit' onClick={this.forceUpdate}>VISIT US</Link>
+                        <Link to='/en/visit' onClick={this.forceUpdate}>VISIT US</Link>
 
-                        <Link to='/en' onClick={this.forceUpdate}>ENG</Link>
+                        <Link to='/' onClick={this.forceUpdate}>KOR</Link>
                     </ol>
                     <div className='mobile-menu-cont'>
 
@@ -52,15 +52,15 @@ class TopB extends React.Component {
                         <div className='mobile-menu-fixed'>
                             <ol className='mobile-menu'>
 
-                                <Link to='/#gallery' >GALLERY</Link>
+                                <Link to='/en/#gallery' >GALLERY</Link>
 
-                                <Link to='/halfandhalf' onClick={this.forceUpdate}>HALF&HALF</Link>
+                                <Link to='/en/halfandhalf' onClick={this.forceUpdate}>HALF&HALF</Link>
 
-                                <Link to='/notice' onClick={this.forceUpdate}>NOTICE</Link>
+                                <Link to='/en/notice' onClick={this.forceUpdate}>NOTICE</Link>
 
-                                <Link to='/visit' onClick={this.forceUpdate}>VISIT US</Link>
+                                <Link to='/en/visit' onClick={this.forceUpdate}>VISIT US</Link>
 
-                                <Link to='/en' onClick={this.forceUpdate}>ENG</Link>
+                                <Link to='/' onClick={this.forceUpdate}>KOR</Link>
                             </ol>
 
                         </div>
@@ -70,4 +70,4 @@ class TopB extends React.Component {
         )
     }
 }
-export default TopB;
+export default TopW;

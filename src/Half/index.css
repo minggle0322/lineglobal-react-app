@@ -36,6 +36,17 @@ body {
     font-size: 9rem;
 }
 
+
+.h-main .m-title {
+
+    font-size: 7rem;
+    text-align: center;
+    font-family: 'Noto Serif Display';
+    display: none;
+    line-height: 0.9;
+}
+
+
 .h-sub1 {
 
     display: flex;
@@ -138,6 +149,7 @@ body {
 
     color: black;
     overflow-y: auto;
+    height: auto;
 }
 
 .h-sub3 .text-cont {
@@ -152,6 +164,10 @@ body {
     display: flex;
     flex-direction: column;
     text-align: right;
+}
+
+.h-sub3 .m-texts {
+    display: none;
 }
 
 .h-sub3 .title {
@@ -220,5 +236,97 @@ a.h-down-cont {
 .h-down-imgcont>img {
     width: 100%;
     height: auto;
+
+}
+
+
+
+
+@media (max-width: 900px) {
+
+    .Slide {
+        padding: 0 15%;
+    }
+
+    .h-main .title {
+        display: none;
+    }
+
+    .h-main .m-title {
+        display: inline;
+    }
+
+    .h-sub1 .title {
+        font-size: 50px !important;
+    }
+
+    .h-sub1 .content {
+        font-size: 25px !important;
+    }
+
+    .h-sub2 .bg-cont {
+        z-index: 0;
+    }
+
+    .h-sub2 .texts {
+        position: relative;
+        left: auto;
+    }
+
+    .h-sub2 .title {
+        font-size: 45px;
+    }
+
+    .h-sub2 .content {
+        font-size: 25px;
+    }
+
+    .h-sub3 {
+        background: white;
+    }
+
+    .h-sub3 .texts {
+        display: none;
+    }
+
+    .h-sub3 .m-texts {
+        display: inline;
+    }
+
+    .h-sub3 .title {
+        font-size: 35px;
+    }
+
+    .h-sub3 .content {
+        font-size: 25px;
+    }
+
+    .h-thumb-cont {
+        width: 80%;
+        min-width: 200px;
+        margin-bottom: 80px;
+    }
+
+    a.h-down-cont {
+        font-size: 30pt;
+    }
+
+    .h-down-imgcont {
+        width: 50px;
+        margin-bottom: 40px;
+    }
+}
+
+
+@media (max-width: 399px) and (min-width: 0px) {
+
+    .h-main .m-title {
+
+        font-size: 5rem;
+        text-align: center;
+        font-family: 'Noto Serif Display';
+        display: inline;
+        line-height: 0.9;
+    }
 
 }

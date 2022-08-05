@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Gallery from './Gallery';
 
-import Top from 'Top/TopW';
+import 'Notice/index.css'
+import Top from '../Top/TopB';
 
 function Notice() {
 

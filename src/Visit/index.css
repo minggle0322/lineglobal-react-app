@@ -1,10 +1,10 @@
 .body-wrap {
     width: 100%;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 200px;
+    background: white;
 }
 
 .visit {
@@ -21,7 +21,7 @@
 }
 
 .title-wrap {
-    margin: 400px 0 150px 0;
+    margin: 100px 0 150px 0;
 }
 
 .title-wrap>.title {
@@ -68,3 +68,22 @@
 .contact-list>.content {
     font-size: 16pt;
 }
+
+
+@media (max-width: 900px) {
+    .title-wrap {
+        margin: 0 0 70px 0;
+    }
+
+    .title-wrap>.title {
+        font-size: 50pt;
+    }
+
+    .address-wrap>.content {
+        font-size: 15pt;
+        text-align: right;
+    }
+}
+
+
+@media (max-width: 399px) and (min-width: 0px) {}
