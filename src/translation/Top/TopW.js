@@ -29,7 +29,7 @@ class TopW extends React.Component {
             <div className='top-cont'>
                 <div className="Top white">
                     <div className='top-logo-cont'>
-                        <Link to='/#main'>
+                        <Link to='/en/#main'>
                             <img className="top-logo" src={Toplogow} alt="logo"></img>
                         </Link>
                     </div>
