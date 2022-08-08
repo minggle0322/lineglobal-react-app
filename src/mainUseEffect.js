@@ -10,7 +10,7 @@ function mainUseEffect() {
 
             Main.panelSnapInstance = new PanelSnap({
                 panelSelector: '> #root > #App > #Main > section',
-                directionThreshold: 0,
+                directionThreshold: 1,
                 delay: 0,
                 duration: 500,
             });
