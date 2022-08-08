@@ -70,7 +70,7 @@ function Main() {
                 </section >
 
 
-                <section className='Sub3 Slide'>
+                <section className='Sub3 Slide-img'>
 
                     <div className='Sub3-line'> </div>
                     <div className='Sub3-cont'>

@@ -21,6 +21,8 @@ body {
     display: none;
 }
 
+
+
 .Slide {
     height: 100vh;
     position: relative;
@@ -176,10 +178,11 @@ body {
     align-items: center;
     background: black;
     flex-direction:column;
-    height:200vh
 
 
 }
+
+
 
 .Sub3-cont {
     display: flex;
@@ -197,6 +200,9 @@ body {
     background: white;
 }
 
+.Slide-img {
+    height: 170vh;
+}
 
 .Sub3-box {
     margin: 3%;
