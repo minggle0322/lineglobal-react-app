@@ -84,7 +84,11 @@ function Main() {
                         <div className='Sub3-box box2 Sub3-box-before'>
                             <h1 className='Sub3-title'>보증된 품질</h1>
                             <h3 className='Sub3-content'>guaranteed quality</h3>
+                                                    
                         </div>
+                    </div>
+                    <div className='Sub3-vid'>
+                        <img src="assets/bgmain.png"></img>
                     </div>
                 </section>
 

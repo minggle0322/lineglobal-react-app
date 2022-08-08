@@ -27,7 +27,6 @@ body {
 }
 
 
-
 .main {
     max-width: 100%;
 
@@ -217,6 +216,16 @@ body {
 .Sub3-content {
     font-size: 25px;
     font-weight: 500;
+}
+
+.Sub3-vid {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding-top: 7%;
+    position: relative;
 }
 
 
