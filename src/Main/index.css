@@ -24,6 +24,7 @@ body {
 .Slide {
     height: 100vh;
     position: relative;
+    background-image: url('../assets/bgmain.png');
 }
 
 
