@@ -8,6 +8,7 @@ import './GalleryAddOn.css'
 
 import mainvid from '../assets/mainvid.mp4'
 import down from '../assets/down.svg'
+import img from 'assets/bgmain.png'
 
 import Top from 'Top/TopW';
 
@@ -85,7 +86,15 @@ function Main() {
                             <h1 className='Sub3-title'>보증된 품질</h1>
                             <h3 className='Sub3-content'>guaranteed quality</h3>
                         </div>
+
+
                     </div>
+                    <div className='Sub3-img'>
+                        <img src={img}></img>
+                        </div>    
+
+                    
+                    
                 </section>
 
 
