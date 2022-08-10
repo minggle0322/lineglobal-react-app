@@ -8,7 +8,7 @@ import 'Main/index.css'
 
 import mainvid from 'assets/mainvid.mp4'
 import down from 'assets/down.svg'
-
+import img from 'assets/bgmain.png'
 import Top from '../Top/TopW';
 
 
@@ -70,7 +70,7 @@ function Main() {
                 </section >
 
 
-                <section className='Sub3 Slide'>
+                <section className='Sub3 Slide-img'>
 
                     <div className='Sub3-line'> </div>
                     <div className='Sub3-cont'>
@@ -87,6 +87,10 @@ function Main() {
                             <h3 className='Sub3-content'></h3>
                         </div>
                     </div>
+                    <div className='Sub3-img'>
+                        <img src={img}></img>
+                        </div>  
+
                 </section>
 
 
