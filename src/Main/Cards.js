@@ -53,21 +53,11 @@ function CardBundle(props) {
             <div className='gallery-contents'>
                 <div className='cards'>
 
-                    <Card src={Photo1} title="Blue Cap" content="" />
-                    <Card src={Photo2} title="Green Sweatshirts" content="" />
-                    <Card src={Photo3} title="Denim Shirts" content="" />
-                    <Card src={Photo4} title="White Shortsleeve" content="" />
-                    <Card src={Photo5} title="Women Dress" content="" />
-                    <Card src={Photo6} title="Golf glove" content="" />
-                    <Card src={Photo7} title="" content="" />
-                    <Card src={Photo8} title="" content="" />
-                    <Card src={Photo9} title="" content="" />
-                    <Card src={Photo10} title="" content="" />
-                    <Card src={Photo11} title="" content="" />
-                    <Card src={Photo12} title="" content="" />
-                    <Card src={Photo13} title="" content="" />
-                    <Card src={Photo14} title="" content="" />
-                    <Card src={Photo15} title="" content="" />
+                    <Card src={Photo4} title="Short Sleeves" content="" />
+                    <Card src={Photo2} title="Long Sleeves" content="" />
+                    <Card src={Photo5} title="Dresses/Skirt" content="" />
+                    <Card src={Photo3} title="Outer" content="" />
+                    <Card src={Photo1} title="Accessories" content="" />
                     <Card />
 
 
