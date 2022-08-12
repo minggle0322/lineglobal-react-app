@@ -7,8 +7,8 @@ import Photo1 from '../assets/goods/0801/tr3.png'
 import Photo2 from '../assets/goods/0801/tr5.jpg'
 import Photo3 from '../assets/goods/0803/20.jpg'
 import Photo4 from '../assets/goods/0801/tr6.jpg'
-import Photo5 from '../assets/goods/0803/5.jpg'
-import Photo6 from '../assets/goods/0803/6.jpg'
+import Photo5 from '../assets/goods/0810/25.jpg'
+import Photo6 from '../assets/goods/0810/26.jpg'
 
 function Card(props) {
     return <div className='Card'>
@@ -34,11 +34,11 @@ function CardBundle(props) {
                 <div className='cards'>
 
                     <Card src={Photo1} title="Blue Cap" content="" />
-                    <Card src={Photo2} title="Green Sweater" content="" />
+                    <Card src={Photo2} title="Green Sweatshirts" content="" />
                     <Card src={Photo3} title="Denim Shirts" content="" />
-                    <Card src={Photo4} title="White Sweater" content="" />
-                    <Card src={Photo5} title="Denim Shirts" content="" />
-                    <Card src={Photo6} title="Dress" content="" />
+                    <Card src={Photo4} title="White Shortsleeve" content="" />
+                    <Card src={Photo5} title="Women Dress" content="" />
+                    <Card src={Photo6} title="Golf glove" content="" />
                     <Card />
 
 
