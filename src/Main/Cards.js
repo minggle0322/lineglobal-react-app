@@ -33,7 +33,7 @@ function CardBundle(props) {
             <div className='gallery-contents'>
                 <div className='cards'>
 
-                    <Card src={Photo1} title="HOOD TRACK TOP" content="EOZNBLUES" />
+                    <Card src={Photo1} title="HOOD TRACK TOP" content="ENZOBLUES" />
                     <Card src={Photo2} title="TWEED JACKET&PANTS" content="OIOI" />
                     <Card src={Photo3} title="DENIM SHIRTS&PANTS" content="ANGLAN" />
                     <Card src={Photo4} title="BUSTIER&SKIRT" content="SEOUL APPAREL" />
