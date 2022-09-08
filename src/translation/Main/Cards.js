@@ -2,15 +2,12 @@ import React, { useState } from 'react'
 
 import Default from 'assets/default.jpg'
 
-import Photo1 from 'assets/goods/0729/tr1.png'
-import Photo2 from 'assets/goods/0729/tr4.png'
-import Photo3 from 'assets/goods/0801/tr2.png'
-import Photo4 from 'assets/goods/0801/tr3.png'
-import Photo5 from 'assets/goods/0803/5.jpg'
-import Photo6 from 'assets/goods/0803/6.jpg'
-import Photo7 from 'assets/goods/0803/7.jpg'
-import Photo8 from 'assets/goods/0803/8.jpg'
-import Photo9 from 'assets/goods/0803/9.jpg'
+import Photo1 from 'assets/1.png'
+import Photo2 from 'assets/2.png'
+import Photo3 from 'assets/3.png'
+import Photo4 from 'assets/4.png'
+import Photo5 from 'assets/5.png'
+import Photo6 from 'assets/6.png'
 
 function Card(props) {
     return <div className='Card'>
@@ -35,16 +32,13 @@ function CardBundle(props) {
             <div className='gallery-contents'>
                 <div className='cards'>
 
-                    <Card src={Photo1} title="Black Camisole" content="" />
-                    <Card src={Photo2} title="Skirts" content="" />
-                    <Card src={Photo3} title="Beige Camisole" content="" />
-                    <Card src={Photo4} title="Blue Cap" content="" />
-                    <Card src={Photo5} title="Denim Shirts" content="" />
-                    <Card src={Photo6} title="Dress" content="" />
-                    <Card src={Photo7} title="Gray Shirts" content="" />
-                    <Card src={Photo8} title="Blue Shirts" content="" />
-                    <Card src={Photo9} title="Black Hoodie" content="" />
-                    <Card />
+                    <Card src={Photo1} title="HOOD TRACK TOP" content="ENZOBLUES" />
+                    <Card src={Photo2} title="TWEED JACKET&PANTS" content="OIOI COLLECTION" />
+                    <Card src={Photo3} title="DENIM SHIRT&PANTS" content="ANGLAN" />
+                    <Card src={Photo4} title="BUSTIER&SKIRT" content="SEOULAPPAREL" />
+                    <Card src={Photo5} title="PRINTING RUG" content="SALTY PEBBLE" />
+                    <Card src={Photo6} title="" content="" />
+
 
 
                 </div>
