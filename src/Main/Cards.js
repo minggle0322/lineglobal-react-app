@@ -3,12 +3,12 @@ import React, { useState } from 'react'
 import '../Gallery.css'
 import Default from '../assets/default.jpg'
 
-import Photo1 from '../assets/goods/0801/tr3.png'
-import Photo2 from '../assets/goods/0801/tr5.jpg'
-import Photo3 from '../assets/goods/0803/20.jpg'
-import Photo4 from '../assets/goods/0801/tr6.jpg'
-import Photo5 from '../assets/goods/0810/25.jpg'
-import Photo6 from '../assets/goods/0810/26.jpg'
+import Photo1 from '../assets/1.png'
+import Photo2 from '../assets/2.png'
+import Photo3 from '../assets/3.png'
+import Photo4 from '../assets/4.png'
+import Photo5 from '../assets/5.png'
+import Photo6 from '../assets/6.png'
 
 function Card(props) {
     return <div className='Card'>
@@ -33,12 +33,12 @@ function CardBundle(props) {
             <div className='gallery-contents'>
                 <div className='cards'>
 
-                    <Card src={Photo1} title="Blue Cap" content="" />
-                    <Card src={Photo2} title="Green Sweatshirts" content="" />
-                    <Card src={Photo3} title="Denim Shirts" content="" />
-                    <Card src={Photo4} title="White Shortsleeve" content="" />
-                    <Card src={Photo5} title="Women Dress" content="" />
-                    <Card src={Photo6} title="Golf glove" content="" />
+                    <Card src={Photo1} title="HOOD TRACK TOP" content="EOZNBLUES" />
+                    <Card src={Photo2} title="TWEED JACKET&PANTS" content="OIOI" />
+                    <Card src={Photo3} title="DENIM SHIRTS&PANTS" content="ANGLAN" />
+                    <Card src={Photo4} title="BUSTIER&SKIRT" content="SEOUL APPAREL" />
+                    <Card src={Photo5} title="PEBBLE-PRINTED RUG" content="SALTY PEBBLE" />
+                    <Card src={Photo6} title="" content="" />
                     <Card />
 
 
