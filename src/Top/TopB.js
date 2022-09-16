@@ -60,7 +60,7 @@ class TopB extends React.Component {
 
                                 <Link to='/visit' onClick={this.forceUpdate}>VISIT US</Link>
 
-                                <Link to='/en' onClick={this.forceUpdate}>ENG</Link>
+                                <Link to='/language' onClick={this.forceUpdate}>ENG</Link>
                             </ol>
 
                         </div>

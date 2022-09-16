@@ -41,8 +41,7 @@ class TopW extends React.Component {
                         <Link to='/notice' onClick={this.forceUpdate}>NOTICE</Link>
 
                         <Link to='/visit' onClick={this.forceUpdate}>VISIT US</Link>
-
-                        <Link to='/en' onClick={this.forceUpdate}>ENG</Link>
+                        <Link to='/language' onClick={this.forceUpdate}>LANGUAGE</Link>
                     </ol>
                     <div className='mobile-menu-cont'>
 
@@ -59,7 +58,7 @@ class TopW extends React.Component {
                                 <Link to='/notice' onClick={this.forceUpdate}>NOTICE</Link>
 
                                 <Link to='/visit' onClick={this.forceUpdate}>VISIT US</Link>
-                                <Link to='/en' onClick={this.forceUpdate}>ENG</Link>
+                                <Link to='/language' onClick={this.forceUpdate}>LANGUAGE</Link>
                             </ol>
 
                         </div>
