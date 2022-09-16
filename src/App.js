@@ -7,7 +7,6 @@ import Notice from './Notice/index.js';
 
 import Visit from './Visit/index.js';
 import NotFound from './NotFound';
-import Language from './Language/index.js';
 
 import Main_en from './translation/Main/index.js';
 import Half_en from './translation/Half/index.js';
@@ -27,7 +26,6 @@ function App() {
                     <Route path="/notice" element={<Notice />} />
 
                     <Route path="/visit" element={<Visit />} />
-                    <Route path="/language" element={<Language />} />
                     <Route path="/en" element={<Main_en/>} />
                     <Route path="/en/halfandhalf" element={<Half_en/>} />
                     <Route path="/en/visit" element={<Visit_en/>} />
