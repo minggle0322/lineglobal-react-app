@@ -109,6 +109,7 @@
 
     .card-title {
         font-size: 20pt;
+        word-break: break-all;
     }
 
     .card-content {
