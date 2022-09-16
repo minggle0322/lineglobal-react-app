@@ -41,16 +41,7 @@ class TopB extends React.Component {
                         <Link to='/notice' onClick={this.forceUpdate}>NOTICE</Link>
 
                         <Link to='/visit' onClick={this.forceUpdate}>VISIT US</Link>
-
-                        <div class="dropmenu">
-                        <ul>
-                            <li><a href="#">Language</a></li>
-                            <ul>
-                                <li><a href="#">한국어</a></li>
-                                <li><a href="#">English</a></li>
-                            </ul>
-                        </ul>    
-                        </div>
+                        <Link to='/en' onClick={this.forceUpdate}>ENG</Link>
                     </ol>
                     <div className='mobile-menu-cont'>
 
@@ -67,7 +58,6 @@ class TopB extends React.Component {
                                 <Link to='/notice' onClick={this.forceUpdate}>NOTICE</Link>
 
                                 <Link to='/visit' onClick={this.forceUpdate}>VISIT US</Link>
-
                                 <Link to='/language' onClick={this.forceUpdate}>LANGUAGE</Link>
                             </ol>
 
