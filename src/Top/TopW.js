@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 
 import './Top.css'
-import Toplogow from 'assets/logo-b.png'
+import Toplogow from 'assets/logo-w.png'
 class TopW extends React.Component {
 
     componentDidMount(
@@ -27,10 +27,10 @@ class TopW extends React.Component {
     render() {
         return (
             <div className='top-cont'>
-                <div className="Top black">
+                <div className="Top white">
                     <div className='top-logo-cont'>
                         <Link to='/#main'>
-                            <img className="top-logo logo-b" src={Toplogob} alt="logo"></img>
+                            <img className="top-logo" src={Toplogow} alt="logo"></img>
                         </Link>
                     </div>
                     <ol className='menu'>
@@ -58,7 +58,7 @@ class TopW extends React.Component {
                                 <Link to='/notice' onClick={this.forceUpdate}>NOTICE</Link>
 
                                 <Link to='/visit' onClick={this.forceUpdate}>VISIT US</Link>
-                                <Link to='/en' onClick={this.forceUpdate}>ENGLISH</Link>
+                                <Link to='/en' onClick={this.forceUpdate}>ENG</Link>
                             </ol>
 
                         </div>
