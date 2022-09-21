@@ -1,11 +1,4 @@
-* {
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
+
   .menu-container {
     position: relative;
     display: flex;
@@ -14,42 +7,35 @@
   }
   
   .menu-trigger {
-    background: #ffffff;
+    background: transparent;
     border-radius: 90px;
     cursor: pointer;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 4px 6px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
     border: none;
     vertical-align: middle;
-    transition: box-shadow 0.4s ease;
-    margin-left: auto; /* Strictly for positioning */
+    margin-left: 20px;
   }
   
   .menu-trigger:hover {
-    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
   }
   
   .menu-trigger span {
-    font-weight: 700;
     vertical-align: middle;
-    font-size: 14px;
+    font-size: 20px;
     margin: 0 10px;
+    color: #ffffff;
+    letter-spacing: -1pt;
   }
   
-  .menu-trigger img {
-    border-radius: 90px;
-  }
-  
-  .menu {
+  .menubox {
     background: #ffffff;
     border-radius: 8px;
     position: absolute;
     top: 60px;
     right: 0;
-    width: 300px;
+    width: 130px;
     box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
     opacity: 0;
     visibility: hidden;
@@ -57,23 +43,19 @@
     transition: opacity 0.4s ease, transform 0.4s ease, visibility 0.4s;
   }
   
-  .menu.active {
+  .menubox.active {
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
   }
   
-  .menu ul {
+  .menubox ul {
     list-style: none;
     padding: 0;
     margin: 0;
   }
-  
-  .menu li {
-    border-bottom: 1px solid #dddddd;
-  }
-  
-  .menu li a {
+
+  .menubox li a {
     text-decoration: none;
     color: #333333;
     padding: 15px 20px;

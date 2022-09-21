@@ -1,34 +1,27 @@
 import React, { useRef } from "react";
-import "./styles.css";
+import "./StyleB.css";
 import { useDetectOutsideClick } from "./useDetectOutsideClick";
-/*
- * Read the blog post here:
- * https://letsbuildui.dev/articles/building-a-dropdown-menu-component-with-react-hooks
- */
 export default function App() {
   const dropdownRef = useRef(null);
   const [isActive, setIsActive] = useDetectOutsideClick(dropdownRef, false);
   const onClick = () => setIsActive(!isActive);
 
   return (
-    <div className="container">
-      <div className="menu-container">
-        <button onClick={onClick} className="menu-trigger">
-          <span>Language</span>
+    <div className="containerB">
+      <div className="menu-containerB">
+        <button onClick={onClick} className="menu-triggerB">
+          <span>LANGUAGE</span>
         </button>
         <nav
           ref={dropdownRef}
-          className={`menu ${isActive ? "active" : "inactive"}`}
+          className={`menuboxB ${isActive ? "active" : "inactive"}`}
         >
           <ul>
             <li>
-              <a href="#">Messages</a>
+              <a href="#">한국어</a>
             </li>
             <li>
-              <a href="#">Trips</a>
-            </li>
-            <li>
-              <a href="#">Saved</a>
+              <a href="#">English</a>
             </li>
           </ul>
         </nav>

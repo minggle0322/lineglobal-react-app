@@ -1,6 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
+import DropDown from './DropDownW'
 
 import './Top.css'
 import Toplogob from 'assets/logo-b.png'
@@ -41,7 +42,7 @@ class TopB extends React.Component {
                         <Link to='/notice' onClick={this.forceUpdate}>NOTICE</Link>
 
                         <Link to='/visit' onClick={this.forceUpdate}>VISIT US</Link>
-                        <Link to='/en' onClick={this.forceUpdate}>ENG</Link>
+                        <DropDown />
                     </ol>
                     <div className='mobile-menu-cont'>
 
@@ -58,7 +59,7 @@ class TopB extends React.Component {
                                 <Link to='/notice' onClick={this.forceUpdate}>NOTICE</Link>
 
                                 <Link to='/visit' onClick={this.forceUpdate}>VISIT US</Link>
-                                <Link to='/en' onClick={this.forceUpdate}>ENG</Link>
+                                <DropDown />
                             </ol>
 
                         </div>
