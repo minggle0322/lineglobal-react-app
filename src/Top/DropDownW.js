@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import "./StyleW.css";
+import "./DropDown.css";
 import { useDetectOutsideClick } from "./useDetectOutsideClick";
 export default function App() {
   const dropdownRef = useRef(null);
@@ -18,10 +18,10 @@ export default function App() {
         >
           <ul>
             <li>
-              <a href="#">한국어</a>
+              <a href="/">한국어</a>
             </li>
             <li>
-              <a href="#">English</a>
+              <a href="/en">English</a>
             </li>
           </ul>
         </nav>

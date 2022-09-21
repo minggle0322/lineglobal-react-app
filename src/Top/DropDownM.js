@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import "./DropDown.css";
+import "./Style.css";
 import { useDetectOutsideClick } from "./useDetectOutsideClick";
 export default function App() {
   const dropdownRef = useRef(null);
@@ -7,8 +7,8 @@ export default function App() {
   const onClick = () => setIsActive(!isActive);
 
   return (
-    <div className="container">
-      <div className="menu-container">
+    <div className="containerB">
+      <div className="menu-containerB">
         <button onClick={onClick} className="menu-triggerB">
           <span>LANGUAGE</span>
         </button>
@@ -18,10 +18,10 @@ export default function App() {
         >
           <ul>
             <li>
-              <a href="/">한국어</a>
+              <a href="#">한국어</a>
             </li>
             <li>
-              <a href="/en">English</a>
+              <a href="#">English</a>
             </li>
           </ul>
         </nav>

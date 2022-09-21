@@ -4,6 +4,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 
 import 'Top/Top.css'
 import Toplogob from 'assets/logo-b.png'
+import DropDownB from 'Top/DropDownB'
 class TopB extends React.Component {
 
     componentDidMount(
@@ -42,7 +43,7 @@ class TopB extends React.Component {
 
                         <Link to='/en/visit' onClick={this.forceUpdate}>VISIT US</Link>
 
-                        <Link to='/' onClick={this.forceUpdate}>KOR</Link>
+                        <DropDownB/>
                     </ol>
                     <div className='mobile-menu-cont'>
 
