@@ -12,6 +12,7 @@ import Photo6 from '../assets/6.png'
 import Photo7 from '../assets/7.png'
 import Photo8 from '../assets/8.png'
 import Photo9 from '../assets/9.png'
+import Photo10 from '../assets/10.png'
 
 function Card(props) {
     return <div className='Card'>
@@ -44,6 +45,7 @@ function CardBundle(props) {
                     <Card src={Photo7} title="SUEDE ROUND DRESS" content="ENZOBLUES" />
                     <Card src={Photo8} title="WOOL STRAIGHT TROUSERS" content="J.RIUM" />
                     <Card src={Photo9} title="WOOL LONG SKIRT" content="J.RIUM" />
+                    <Card src={Photo10} title="DENIM SET-UP" content="FRUTA"/>
                     <Card src={Photo6} title="" content="" />
                     <Card />
 
