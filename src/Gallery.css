@@ -66,14 +66,29 @@
 
 .thumb-cont {
     width: 100%;
+    margin: 0px auto;
+    position: relative;
 }
 
 .thumb {
 
     border-radius: 3%;
     width: 100%;
-    height: auto;
-    background-color: white;
+    margin: 0px auto;
+}
+
+.thumb1 {
+    border-radius: 3%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    transition: opacity 0.5s linear;
+}
+
+.thumb-cont:hover .thumb1 {
+    opacity:1;
 }
 
 .card-texts {

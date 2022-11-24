@@ -3,22 +3,46 @@ import React, { useState } from 'react'
 import '../Gallery.css'
 import Default from '../assets/default.jpg'
 
-import Photo1 from '../assets/1.png'
-import Photo2 from '../assets/2.png'
-import Photo3 from '../assets/3.png'
-import Photo4 from '../assets/4.png'
-import Photo5 from '../assets/5.png'
-import Photo6 from '../assets/6.png'
-import Photo7 from '../assets/7.png'
-import Photo8 from '../assets/8.png'
-import Photo9 from '../assets/9.png'
-import Photo10 from '../assets/10.png'
-import Photo11 from '../assets/11.png'
+import Photo1 from '../assets/18.png'
+import Sub1 from '../assets/18.2.png'
+import Photo2 from '../assets/17.png'
+import Sub2 from '../assets/17.2.png'
+import Photo3 from '../assets/16.png'
+import Sub3 from '../assets/16.2.png'
+import Photo4 from '../assets/15.png'
+import Sub4 from '../assets/15.2.png'
+import Photo5 from '../assets/14.png'
+import Sub5 from '../assets/14.2.png'
+import Photo6 from '../assets/13.png'
+import Sub6 from '../assets/13.2.png'
+import Photo7 from '../assets/12.png'
+import Sub7 from '../assets/12.2.png'
+import Photo8 from '../assets/11.png'
+import Sub8 from '../assets/11.2.png'
+import Photo9 from '../assets/10.png'
+import Sub9 from '../assets/10.2.png'
+import Photo10 from '../assets/9.png'
+import Sub10 from '../assets/9.2.png'
+import Photo11 from '../assets/8.png'
+import Sub11 from '../assets/8.2.png'
+import Photo12 from '../assets/7.png'
+import Sub12 from '../assets/7.2.png'
+import Photo13 from '../assets/5.png'
+import Sub13 from '../assets/5.2.png'
+import Photo14 from '../assets/4.png'
+import Sub14 from '../assets/4.2.png'
+import Photo15 from '../assets/3.png'
+import Sub15 from '../assets/3.2.png'
+import Photo16 from '../assets/2.png'
+import Sub16 from '../assets/2.2.png'
+import Photo17 from '../assets/1.png'
+import Sub17 from '../assets/1.2.png'
 
 function Card(props) {
     return <div className='Card'>
         <div className="thumb-cont">
             <img className='thumb' src={props.src} />
+            <img className='thumb1' src={props.srcs} />
         </div>
         <div className='card-texts'>
             <div className='card-title'>{props.title}</div>
@@ -37,17 +61,23 @@ function CardBundle(props) {
         return (
             <div className='gallery-contents'>
                 <div className='cards'>
-                    <Card src={Photo11} title="LOOSE CARGO PANTS" content="MNGU" />
-                    <Card src={Photo1} title="HOOD TRACK TOP" content="ENZOBLUES" />
-                    <Card src={Photo2} title="TWEED JACKET&PANTS" content="OIOI" />
-                    <Card src={Photo3} title="DENIM SHIRTS&PANTS" content="ANGLAN" />
-                    <Card src={Photo4} title="BUSTIER&SKIRT" content="SEOUL APPAREL" />
-                    <Card src={Photo5} title="PEBBLE-PRINTED RUG" content="SALTY PEBBLE" />
-                    <Card src={Photo7} title="SUEDE ROUND DRESS" content="ENZOBLUES" />
-                    <Card src={Photo8} title="WOOL STRAIGHT TROUSERS" content="J.RIUM" />
-                    <Card src={Photo9} title="WOOL LONG SKIRT" content="J.RIUM" />
-                    <Card src={Photo10} title="DENIM SET-UP" content="FRUTA"/>
-                    <Card src={Photo6} title="" content="" />
+                    <Card src={Photo1}  title="FLEECE JACKET" content="SANSANGEAR" srcs={Sub1} />
+                    <Card src={Photo2} title="BELT BAG SUEDE JACKET" content="SUU" srcs={Sub2} />
+                    <Card src={Photo3} title="FLOWER BUTTON JACKET & SKIRT" content="SUU"srcs={Sub3} />
+                    <Card src={Photo4} title="LEATHER BLOUSON JACKET" content="TRWA"srcs={Sub4} />
+                    <Card src={Photo5} title="WOOL BLOUSON JACKET" content="TRWA"srcs={Sub5} />
+                    <Card src={Photo6} title="PARKA TRENCH COAT" content="TRWA"srcs={Sub6} />
+                    <Card src={Photo7} title="CORDUROY SET-UP" content="AJOBYAJO"srcs={Sub7} />
+                    <Card src={Photo8} title="LOOSEFIT CARGO PANTS" content="MNGU" srcs={Sub8}/>
+                    <Card src={Photo9} title="DENIM SET-UP" content="FRUTA"srcs={Sub9} />
+                    <Card src={Photo10} title="WOOL LONG SKIRT" content="J.RIUM" srcs={Sub10}/>
+                    <Card src={Photo11} title="WOOL STRAIGHT TROUSERS" content="J.RIUM" srcs={Sub11}/>
+                    <Card src={Photo12} title="SEUDE ROUND DRESS" content="ENZOBLUES" srcs={Sub12}/>
+                    <Card src={Photo13} title="PEBBLE-PRINTED RUG" content="SALTY PEBBLE"srcs={Sub13} />
+                    <Card src={Photo14} title="BUSTIER&SKIRT" content="SEOUL APPAREL"srcs={Sub14} />
+                    <Card src={Photo15} title="DENIM SHIRTS & PANTS" content="ANGLAN"srcs={Sub15} />
+                    <Card src={Photo16} title="TWEED JACKET & PANTS" content="OIOI"srcs={Sub16} />
+                    <Card src={Photo17} title="HOOD TRACK TOP" content="ENZOBLUES"srcs={Sub17}/>
                     <Card />
 
 
