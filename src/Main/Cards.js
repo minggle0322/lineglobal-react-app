@@ -37,6 +37,16 @@ import Photo16 from '../assets/2.png'
 import Sub16 from '../assets/2.2.png'
 import Photo17 from '../assets/1.png'
 import Sub17 from '../assets/1.2.png'
+import Photo18 from '../assets/19.png'
+import Sub18 from '../assets/19.2.png'
+import Photo19 from '../assets/20.png'
+import Sub19 from '../assets/20.2.png'
+import Photo20 from '../assets/21.png'
+import Sub20 from '../assets/21.2.png'
+import Photo21 from '../assets/22.png'
+import Sub21 from '../assets/22.2.png'
+import Photo22 from '../assets/23.png'
+import Sub22 from '../assets/23.2.png'
 
 function Card(props) {
     return <div className='Card'>
@@ -61,6 +71,11 @@ function CardBundle(props) {
         return (
             <div className='gallery-contents'>
                 <div className='cards'>
+                    <Card src={Photo22} title="STRAP LINE PANTS" content="SUU" srcs={Sub22} />
+                    <Card src={Photo21} title="DOUBLE TUCK PANTS" content="SUU" srcs={Sub21} />
+                    <Card src={Photo20} title="PADDED JACKET" content="SUU" srcs={Sub20} />
+                    <Card src={Photo19} title ="RSA WIND-BLOCK JACKET" content="SANSANGEAR" srcs={Sub19} />
+                    <Card src={Photo18} title="RSA VEST" content="SANSANGEAR" srcs={Sub18} />
                     <Card src={Photo1}  title="FLEECE JACKET" content="SANSANGEAR" srcs={Sub1} />
                     <Card src={Photo2} title="BELT BAG SUEDE JACKET" content="SUU" srcs={Sub2} />
                     <Card src={Photo3} title="FLOWER BUTTON JACKET & SKIRT" content="SUU"srcs={Sub3} />
