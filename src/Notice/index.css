@@ -2,3 +2,58 @@
     background: white;
     height: 100vh;
 }
+
+
+.p-main .bg-cont {
+
+position: absolute;
+left: 0;
+width: 100%;
+height: 100%;
+background: black;
+overflow-y: hidden;
+}
+
+.p-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.p-sub1 {
+    width: 100%;
+    height: 300vh;
+    background-color: white;
+}
+
+.vert-line {
+    border-left: 2px solid lightgray;
+    height: 100px;
+}
+
+
+.p-title-sub > span {
+    transform: rotate(-90deg);
+    display: inline-block;
+    transform-origin: left;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.p-title {
+    display: flex;
+    justify-content: center;
+    padding-top: 20%;
+}
+
+.p-title-main {
+    margin-top: -50px;
+
+}
+
+.p-title-main > span {
+    FONT-SIZE: 60PX;
+    FONT-WEIGHT: 700;
+    margin-top: -100px;
+}
