@@ -39,7 +39,7 @@ class TopB extends React.Component {
 
                         <Link to='/halfandhalf' onClick={this.forceUpdate}>HALF&HALF</Link>
 
-                        <Link to='/notice' onClick={this.forceUpdate}>NOTICE</Link>
+                        <Link to='/notice' onClick={this.forceUpdate}>PROCESS</Link>
 
                         <Link to='/visit' onClick={this.forceUpdate}>VISIT US</Link>
                         <DropDownB />
