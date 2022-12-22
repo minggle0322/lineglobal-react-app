@@ -220,5 +220,6 @@ overflow-y: hidden;
     font-size: 40px;
     position: relative;
     left: 55%;
-    margin-top: -250px;
+    cursor: pointer;
+    transform: translateY(-200px);
 }

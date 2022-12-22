@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 import './index.css'
 import Top from 'Top/TopB';
@@ -165,10 +166,12 @@ function Notice() {
                     </div>
                     <div className="p-sub3-image">
                         <img src={Hoodie}></img>
+                        <Link to="/visit">
                         <button className="p-sub3-button1">
                         <span>CONTACT US</span><br></br>
                         <img src={Arrow}></img>
-                    </button>
+                        </button>
+                        </Link>
                     </div>
                 </div>
             </section>
