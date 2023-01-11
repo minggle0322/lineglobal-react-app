@@ -44,9 +44,9 @@ function Main() {
                 <section id="about" className='Sub1 Slide'>
                     <div className='headingcont'>
 
-                        <div className='about'>about us</div>
+                        <div className='about'>ABOUT US</div>
 
-                        <div className='about-mobile'>about us</div>
+                        <div className='about-mobile'>ABOUT US</div>
                         <h1 className='Sub1-title'>신뢰받는 라인글로벌로<br />성장해나가고 있습니다. </h1>
 
                         <h3 className='Sub1-content'>LINEGLOBAL은 파트너십을 체결하여 브랜드를 기획 육성하고, <br /> 제품을 기획/개발/제조하여 온오프라인 유통망을 구축하는 컨설팅 업체입니다.<br /> 각 사업 부서에서 기획과 제조를 맡아 만족도 높은 결과를 만들어갑니다. </h3>
