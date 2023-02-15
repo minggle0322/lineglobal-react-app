@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import Gallery from './Gallery';
 
-import 'Notice/index.css'
+import 'Notice/notice.css'
 import Top from '../Top/TopB';
 
 function Notice() {

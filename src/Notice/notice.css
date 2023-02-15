@@ -1,6 +1,4 @@
-body {
-    background-color: white;
-}
+
 
 .notice {
     background: white;
@@ -351,6 +349,7 @@ overflow-y: hidden;
     .p-sub3 {
         background-color: white;
         padding: 0 5%;
+        height: auto;
     }
 
     .p-sub3-image {

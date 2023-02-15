@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-import './index.css'
+import './notice.css'
 import Top from 'Top/TopB';
 import Bg from '../assets/bgcircle.png'
 import Bag from '../assets/processbag.png'
