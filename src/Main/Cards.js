@@ -49,6 +49,10 @@ import Photo22 from '../assets/23.png'
 import Sub22 from '../assets/23.2.png'
 import Photo23 from '../assets/24.jpg'
 import Sub23 from '../assets/24.2.jpg'
+import Photo24 from '../assets/25.png'
+import Sub24 from '../assets/25.1.png'
+import Photo25 from '../assets/26.png'
+import Sub25 from '../assets/26.1.png'
 
 function Card(props) {
     return <div className='Card'>
@@ -73,6 +77,8 @@ function CardBundle(props) {
         return (
             <div className='gallery-contents'>
                 <div className='cards'>
+                    <Card src={Photo25} title="WAPPEN WING COLLAR SWEATSHIRT" content="ANGLAN" srcs={Sub25}/>
+                    <Card src={Photo24} title="HIGHNECK BALLON HALF ZIP-UP" content="ANGLAN" srcs={Sub24}/>
                     <Card src={Photo23} title="CORDUROY CARGO PANTS" content="ANGLAN" srcs={Sub23}/>
                     <Card src={Photo22} title="STRAP LINE PANTS" content="SUU" srcs={Sub22} />
                     <Card src={Photo21} title="DOUBLE TUCK PANTS" content="SUU" srcs={Sub21} />
