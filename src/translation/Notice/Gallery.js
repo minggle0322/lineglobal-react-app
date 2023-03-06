@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 
-import 'Gallery.css'
-import 'Notice/GalleryAddOn.css'
-import Default from 'assets/default.jpg'
+import '../Gallery.css'
+import './GalleryAddOn.css'
+import Default from '../assets/default.jpg'
 
 
 function Card(props) {
@@ -47,7 +47,7 @@ function Gallery() {
             <div className='gallery-header'>
 
                 <div className='gallery-title'>Notice</div>
-                <div className='temp-content'>There is no Notice.</div>
+                <div className='temp-content'>공지사항이 없습니다.</div>
 
             </div>
 

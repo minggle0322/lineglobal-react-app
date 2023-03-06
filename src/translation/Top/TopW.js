@@ -39,7 +39,7 @@ class TopW extends React.Component {
 
                         <Link to='/en/halfandhalf' onClick={this.forceUpdate}>HALF&HALF</Link>
 
-                        <Link to='/en/notice' onClick={this.forceUpdate}>NOTICE</Link>
+                        <Link to='/en/notice' onClick={this.forceUpdate}>PROCESS</Link>
 
                         <Link to='/en/visit' onClick={this.forceUpdate}>VISIT US</Link>
 

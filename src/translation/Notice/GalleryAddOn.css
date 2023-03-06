@@ -1,0 +1,8 @@
+.notice .Gallery {
+    color: black;
+}
+
+.notice .cards>:nth-child(even) {
+    margin-top: 0;
+    margin-bottom: 0;
+}
