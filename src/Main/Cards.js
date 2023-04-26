@@ -61,6 +61,12 @@ import Photo28 from '../assets/29.png'
 import Sub28 from '../assets/29.2.png'
 import Photo29 from '../assets/30.png'
 import Sub29 from '../assets/30.2.png'
+import Photo30 from '../assets/31.png'
+import Sub30 from '../assets/31.2.png'
+import Photo31 from '../assets/32.png'
+import Sub31 from '../assets/32.2.png'
+import Photo32 from '../assets/33.png'
+import Sub32 from '../assets/33.2.png'
 
 function Card(props) {
     return <div className='Card'>
@@ -85,12 +91,15 @@ function CardBundle(props) {
         return (
             <div className='gallery-contents'>
                 <div className='cards'>
-                    <Card src={Photo29} title="POCKET WING COLLAR HALF TEE" content="ANGLAN" srcs={Sub29}/>
-                    <Card src={Photo28} title="TRUCKER JACKET" content="UNAFFECTED" srcs={Sub28}/>
-                    <Card src={Photo27} title="LAYERED FISHERMAN JUMPER" content="UNAFFECTED" srcs={Sub27}/>
+                    <Card src={Photo32} title="TRUCKER JACKET" content="UNAFFECTED" srcs={Sub32}/>
+                    <Card src={Photo31} title="SHIRRING CARGO MAXI SKIRT" content="MATIN-KIM" srcs={Sub31}/>
+                    <Card src={Photo30} title="COMBAT EASY PANTS" content="EASTLOGUE" srcs={Sub30}/>
+                    <Card src={Photo29} title="COMPORT SPORT JACKET" content="ANGLAN" srcs={Sub29}/>
+                    <Card src={Photo28} title="WAPPEN WING COLLAR SWEATSHIRT" content="UNAFFECTED" srcs={Sub28}/>
+                    <Card src={Photo27} title="HIGHNECK BALLON HALF ZIP-UP" content="ANGLAN" srcs={Sub27}/>
                     <Card src={Photo26} title="APPLIQUE HEAVY SWEATSHIRT" content="ANGLAN" srcs={Sub26}/>
-                    <Card src={Photo25} title="WAPPEN WING COLLAR SWEATSHIRT" content="ANGLAN" srcs={Sub25}/>
-                    <Card src={Photo24} title="HIGHNECK BALLON HALF ZIP-UP" content="ANGLAN" srcs={Sub24}/>
+                    <Card src={Photo25} title="POCKET WING COLLAR HALF TEE" content="ANGLAN" srcs={Sub25}/>
+                    <Card src={Photo24} title="LAYERED FISHERMAN JUMPER" content="UNAFFECTED" srcs={Sub24}/>
                     <Card src={Photo23} title="CORDUROY CARGO PANTS" content="ANGLAN" srcs={Sub23}/>
                     <Card src={Photo22} title="STRAP LINE PANTS" content="SUU" srcs={Sub22} />
                     <Card src={Photo21} title="DOUBLE TUCK PANTS" content="SUU" srcs={Sub21} />

@@ -19,7 +19,7 @@ function mainUseEffect() {
             // IntersectionObserver 를 등록한다.
             const sub1 = new IntersectionObserver(entries => {
                 entries.forEach(entry => {
-                    // 관찰 대상이 viewport 안에 들어온 경우 'tada' 클래스를 추가
+                    // 관찰 대상이 viewport 안에 들어온 경우 'fadein-ani' 클래스를 추가
                     if (entry.intersectionRatio > 0) {
                         $('.about').addClass('fadein-ani');
                         $('.Sub1-title').addClass('fadein-ani-1');
